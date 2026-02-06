@@ -1,0 +1,706 @@
+
+----- Abstraction Phase -----
+[2026-01-15 09:41:55]
+🧱 ABSTRACTION — The features abstracted by the text are:
+* [1] The category is "Social & Community Context" for the finding "living_alone" and the explanation is "Patient lived alone and performed his own shopping and cooking".
+* [2] The category is "Social & Community Context" for the finding "occupation" and the explanation is "Retired plumber with past asbestos exposure while working in a shipyard".
+* [3] The category is "Social & Community Context" for the finding "tobacco_use" and the explanation is "Smoked three packs per day for 50 years, quit 14 years ago".
+* [4] The category is "Social & Community Context" for the finding "alcohol_use" and the explanation is "Occasional alcohol consumption".
+* [5] The category is "Social & Community Context" for the finding "illicit_drug_use" and the explanation is "Denies illicit drug use".
+* [6] The category is "Past Medical History" for the finding "diabetes_mellitus" and the explanation is "Chronic".
+* [7] The category is "Past Medical History" for the finding "coronary_artery_disease" and the explanation is "Stent placed 10 years prior".
+* [8] The category is "Past Medical History" for the finding "complete_heart_block" and the explanation is "Diagnosed 6 years ago; pacemaker inserted".
+* [9] The category is "Past Medical History" for the finding "hypertension" and the explanation is "Chronic".
+* [10] The category is "Past Medical History" for the finding "hyperlipidemia" and the explanation is "Chronic".
+* [11] The category is "Past Medical History" for the finding "cerebrovascular_disease" and the explanation is "Chronic".
+* [12] The category is "Past Medical History" for the finding "osteoarthritis" and the explanation is "Chronic".
+* [13] The category is "Past Medical History" for the finding "hearing_impairment" and the explanation is "Chronic".
+* [14] The category is "Past Medical History" for the finding "vertigo" and the explanation is "Chronic".
+* [15] The category is "Past Medical History" for the finding "cataracts" and the explanation is "Chronic".
+* [16] The category is "Past Medical History" for the finding "asbestosis_exposure" and the explanation is "Occupational exposure in shipyard".
+* [17] The category is "Past Medical History" for the finding "transurethral_prostatectomy" and the explanation is "Prior surgical history".
+* [18] The category is "Family History" for the finding "maternal_death_unknown_cause" and the explanation is "Mother died at age 49".
+* [19] The category is "Family History" for the finding "paternal_colon_cancer" and the explanation is "Father died of colon cancer".
+* [20] The category is "Family History" for the finding "sibling_heart_disease_and_asbestosis" and the explanation is "Brother had heart disease and asbestosis".
+* [21] The category is "Allergies" for the finding "no_known_drug_allergies" and the explanation is "Patient reports no known allergies".
+* [22] The category is "Current Medications" for the finding "metformin" and the explanation is "Chronic diabetes medication".
+* [23] The category is "Current Medications" for the finding "rosiglitazone" and the explanation is "Chronic diabetes medication".
+* [24] The category is "Current Medications" for the finding "acetylsalicylic_acid_low_dose" and the explanation is "Antiplatelet therapy".
+* [25] The category is "Current Medications" for the finding "captopril" and the explanation is "ACE inhibitor for hypertension".
+* [26] The category is "Current Medications" for the finding "metoprolol" and the explanation is "Beta‑blocker for CAD/HTN".
+* [27] The category is "Current Medications" for the finding "atorvastatin" and the explanation is "Lipid‑lowering therapy".
+* [28] The category is "Current Medications" for the finding "furosemide" and the explanation is "Loop diuretic".
+* [29] The category is "Current Medications" for the finding "tolazamide" and the explanation is "Sulfonylurea for diabetes".
+* [30] The category is "Current Medications" for the finding "nifedipine" and the explanation is "Calcium‑channel blocker for hypertension".
+* [31] The category is "Current Medications" for the finding "cimetidine" and the explanation is "H2 blocker".
+* [32] The category is "Current Medications" for the finding "esomeprazole" and the explanation is "Started in‑hospital for gastro‑protection".
+* [33] The category is "Current Medications" for the finding "insulin_sliding_scale" and the explanation is "Started in‑hospital for hyperglycemia".
+* [34] The category is "Current Medications" for the finding "heparin" and the explanation is "Prophylactic anticoagulation".
+* [35] The category is "Current Medications" for the finding "ceftriaxone" and the explanation is "Broad‑spectrum antibiotic".
+* [36] The category is "Current Medications" for the finding "azithromycin" and the explanation is "Broad‑spectrum antibiotic".
+* [37] The category is "Current Medications" for the finding "levofloxacin" and the explanation is "Broad‑spectrum antibiotic".
+* [38] The category is "Current Medications" for the finding "prednisone" and the explanation is "Systemic corticosteroid".
+* [39] The category is "Current Medications" for the finding "morphine" and the explanation is "Analgesia and dyspnea relief".
+* [40] The category is "Current Medications" for the finding "bronchodilators" and the explanation is "Respiratory support".
+* [41] The category is "Current Medications" for the finding "sodium_polystyrene_sulfonate" and the explanation is "Hyperkalemia management".
+* [42] The category is "History of Present Illness" for the finding "progressive_dyspnea" and the explanation is "Onset 6 months prior, gradual decline in exercise tolerance; acute worsening 3 days prior to admission".
+* [43] The category is "History of Present Illness" for the finding "decreased_appetite" and the explanation is "Noted 2 days prior to admission".
+* [44] The category is "History of Present Illness" for the finding "weight_loss" and the explanation is "Approx. 2.3 kg loss over 2 months".
+* [45] The category is "History of Present Illness" for the finding "somnolence_and_reduced_interactivity" and the explanation is "Observed 2 days prior to admission".
+* [46] The category is "History of Present Illness" for the finding "decreased_urine_output" and the explanation is "Observed 2 days prior to admission".
+* [47] The category is "History of Present Illness" for the finding "unsteady_gait" and the explanation is "Observed 2 days prior to admission".
+* [48] The category is "History of Present Illness" for the finding "dry_cough" and the explanation is "Chronic, unchanged".
+* [49] The category is "Physical Examination" for the finding "temperature" and the explanation is "36.1 °C (ED)".
+* [50] The category is "Physical Examination" for the finding "blood_pressure" and the explanation is "105/43 mm Hg (ED), 118/70 mm Hg (EMS)".
+* [51] The category is "Physical Examination" for the finding "pulse" and the explanation is "81 bpm (ED), 60 bpm (EMS)".
+* [52] The category is "Physical Examination" for the finding "respiratory_rate" and the explanation is "28 breaths/min (ED)".
+* [53] The category is "Physical Examination" for the finding "oxygen_saturation" and the explanation is "78 % on room air, 91 % on 6 L nasal cannula, 100 % on non‑rebreather (ED)".
+* [54] The category is "Physical Examination" for the finding "jugular_venous_pressure" and the explanation is "14 cm above right atrium".
+* [55] The category is "Physical Examination" for the finding "lung_exam" and the explanation is "Crackles extending halfway up lungs bilaterally; occasional expiratory wheezes".
+* [56] The category is "Physical Examination" for the finding "cardiac_exam" and the explanation is "No murmurs noted".
+* [57] The category is "Investigations" for the finding "blood_glucose_fingerstick" and the explanation is "230 mg/dL (12.8 mmol/L) on EMS arrival".
+* [58] The category is "Investigations" for the finding "ECG_ems" and the explanation is "Paced rhythm, no ectopy".
+* [59] The category is "Investigations" for the finding "ECG_hospital" and the explanation is "Pacemaker rate 88 bpm".
+* [60] The category is "Investigations" for the finding "chest_xray_initial" and the explanation is "Bilateral coarse reticular opacities, most pronounced at bases".
+* [61] The category is "Investigations" for the finding "chest_xray_day1" and the explanation is "Bilateral patchy air‑space opacities, indistinct pulmonary vessels, possible small pleural effusions, dual‑lead pacemaker left chest wall".
+* [62] The category is "Investigations" for the finding "chest_xray_day2" and the explanation is "Decreased air‑space opacities, calcified pleural plaques on right hemidiaphragm, coarse reticular opacities, increased cystic lucency at bases".
+* [63] The category is "Investigations" for the finding "chest_ct" and the explanation is "Calcified pericardium and pleura; mild‑moderate aortic atherosclerosis; dual‑chamber pacemaker leads in innominate vein, right atrial appendage, right ventricular septum; lymph nodes 1.5–2.3 cm (paratracheal, hilar, subcarinal); cystic changes, septal thickening, honeycombing, traction bronchiectasis, diffuse asymmetric ground‑glass opacification".
+* [64] The category is "Investigations" for the finding "transthoracic_echocardiogram" and the explanation is "Mild concentric LVH, EF 54 %; markedly dilated, hypokinetic RV; moderate‑severe TR; pulmonary arterial hypertension; septal flattening (volume and pressure overload)".
+* [65] The category is "Investigations" for the finding "cardiac_biomarkers" and the explanation is "Serial testing showed no evidence of myocardial infarction".
+* [66] The category is "Investigations" for the finding "laboratory_results" and the explanation is "Data referenced as Table 1 but specific values not provided in narrative".
+* [67] The category is "Investigations" for the finding "right_ventricular_overload" and the explanation is "Echocardiogram findings consistent with RV volume and pressure overload".
+* [68] The category is "Investigations" for the finding "interstitial_lung_disease" and the explanation is "CT features of honeycombing, traction bronchiectasis, ground‑glass opacities, pleural plaques consistent with asbestosis‑related fibrosis".
+* [69] The category is "Investigations" for the finding "pulmonary_hypertension" and the explanation is "Echocardiogram evidence".
+* [70] The category is "Investigations" for the finding "hypoxemia" and the explanation is "Persistent oxygen desaturation despite high‑flow supplemental oxygen".
+* [71] The category is "Investigations" for the finding "syncope" and the explanation is "Occurred while ambulating; SBP initially 60 mm Hg, resolved to 140/68 mm Hg".
+* [72] The category is "Investigations" for the finding "asystolic_cardiac_arrest" and the explanation is "Occurred on hospital day 8; no resuscitation performed".
+* [73] The category is "Investigations" for the finding "autopsy" and the explanation is "Performed after death; results not detailed in narrative".
+* [74] The category is "Investigations" for the finding "hospital_course" and the explanation is "Progressive respiratory failure requiring bilevel/CPAP, then intubation and mechanical ventilation; refractory hypoxemia; multiple antibiotics; corticosteroids; pressors; eventual death".
+* [75] The category is "Investigations" for the finding "final_outcome" and the explanation is "Death on hospital day 8 after asystolic cardiac arrest; no CPR per family wishes".
+
+----- Abduction Phase (Unfocused) -----
+[2026-01-15 09:43:24]
+🧠 ABDUCTION (UNFOCUSED) — Diagnostic hypotheses generated:
+
+1. Asbestos‑related interstitial lung disease (fibrosis)
+  Why: Long‑standing asbestos exposure with radiographic honeycombing, pleural plaques, and progressive dyspnea suggests a chronic fibrotic lung process.
+  Supporting features:
+    - asbestosis_exposure
+    - progressive_dyspnea
+    - dry_cough
+    - interstitial_lung_disease
+    - chest_xray_initial
+    - chest_xray_day2
+    - chest_ct
+    - weight_loss
+    - hypoxemia
+
+2. Pulmonary hypertension secondary to chronic lung disease
+  Why: Evidence of interstitial lung disease together with elevated pulmonary pressures and right‑ventricular strain indicates secondary pulmonary hypertension.
+  Supporting features:
+    - interstitial_lung_disease
+    - pulmonary_hypertension
+    - right_ventricular_overload
+    - transthoracic_echocardiogram
+    - hypoxemia
+    - progressive_dyspnea
+
+3. Cor pulmonale (right‑sided heart failure) from pulmonary hypertension
+  Why: Marked right‑ventricular dilation, elevated jugular venous pressure, and syncope point to right‑heart failure secondary to pulmonary vascular disease.
+  Supporting features:
+    - right_ventricular_overload
+    - jugular_venous_pressure
+    - pulmonary_hypertension
+    - transthoracic_echocardiogram
+    - syncope
+    - hypotension
+    - hypoxemia
+
+4. Acute decompensated left‑sided heart failure (volume overload)
+  Why: Bilateral crackles, low blood pressure, and elevated jugular pressure with preserved ejection fraction suggest left‑sided failure exacerbated by fluid overload.
+  Supporting features:
+    - lung_exam
+    - jugular_venous_pressure
+    - blood_pressure
+    - transthoracic_echocardiogram
+    - progressive_dyspnea
+    - furosemide
+
+5. Chronic obstructive pulmonary disease (COPD) exacerbation
+  Why: Heavy smoking history, wheezes, chronic cough, and hypoxemia are compatible with COPD contributing to respiratory decompensation.
+  Supporting features:
+    - tobacco_use
+    - lung_exam
+    - dry_cough
+    - progressive_dyspnea
+    - hypoxemia
+    - oxygen_saturation
+
+6. Acute infectious pneumonia
+  Why: New air‑space opacities on chest radiograph with worsening dyspnea prompted broad‑spectrum antibiotics, raising pneumonia as a possible cause.
+  Supporting features:
+    - chest_xray_day1
+    - temperature
+    - dry_cough
+    - progressive_dyspnea
+    - ceftriaxone
+    - azithromycin
+    - levofloxacin
+
+7. Pulmonary embolism
+  Why: Sudden hypoxemia, syncope, right‑ventricular strain, and pulmonary hypertension raise the possibility of an acute embolic event.
+  Supporting features:
+    - hypoxemia
+    - syncope
+    - right_ventricular_overload
+    - pulmonary_hypertension
+    - progressive_dyspnea
+    - blood_pressure
+
+8. Primary lung malignancy with mediastinal lymphadenopathy
+  Why: Heavy smoking, asbestos exposure, weight loss, and enlarged thoracic lymph nodes on CT could represent a bronchogenic carcinoma.
+  Supporting features:
+    - tobacco_use
+    - asbestosis_exposure
+    - weight_loss
+    - progressive_dyspnea
+    - dry_cough
+    - chest_ct
+
+9. Medication‑induced respiratory depression (beta‑blocker/opioid effect)
+  Why: Concurrent use of metoprolol and morphine may have contributed to hypoventilation, somnolence, and worsening hypoxemia.
+  Supporting features:
+    - metoprolol
+    - morphine
+    - somnolence_and_reduced_interactivity
+    - hypoxemia
+    - progressive_dyspnea
+
+10. Geriatric frailty with multifactorial dyspnea
+  Why: Advanced age, multiple comorbidities, recent weight loss, decreased appetite, and functional decline together can produce a frailty syndrome causing dyspnea.
+  Supporting features:
+    - living_alone
+    - age
+    - weight_loss
+    - decreased_appetite
+    - unsteady_gait
+    - somnolence_and_reduced_interactivity
+    - progressive_dyspnea
+
+----- Abduction Phase (Focused) -----
+[2026-01-15 09:45:25]
+🧠 ABDUCTION (FOCUSED) — Diagnostic hypotheses generated:
+
+1. Asbestosis with progressive massive fibrosis
+  Why: Advanced asbestos-related interstitial lung disease manifesting as extensive fibrosis, pleural plaques, weight loss, and severe hypoxemia, explaining the progressive dyspnea and radiographic findings.
+  Supporting features:
+    - asbestosis_exposure
+    - interstitial_lung_disease
+    - chest_ct
+    - chest_xray_day2
+    - weight_loss
+    - hypoxemia
+    - progressive_dyspnea
+    - dry_cough
+
+2. Group 3 pulmonary hypertension secondary to severe asbestosis-related interstitial lung disease
+  Why: Pulmonary hypertension arising from chronic hypoxic vasoconstriction due to extensive asbestos-induced fibrosis, leading to right‑ventricular overload and dyspnea.
+  Supporting features:
+    - pulmonary_hypertension
+    - interstitial_lung_disease
+    - right_ventricular_overload
+    - hypoxemia
+    - progressive_dyspnea
+    - transthoracic_echocardiogram
+
+3. Tricuspid regurgitation secondary to pacemaker lead‑induced valvular dysfunction contributing to cor pulmonale
+  Why: The intracardiac pacemaker leads may impair tricuspid valve competence, producing regurgitation that exacerbates right‑ventricular dilation and overload in the setting of pulmonary hypertension.
+  Supporting features:
+    - ECG_hospital
+    - ECG_ems
+    - transthoracic_echocardiogram
+    - right_ventricular_overload
+    - jugular_venous_pressure
+    - syncope
+
+4. Acute right‑sided heart failure due to pulmonary hypertension rather than left‑sided volume overload
+  Why: Elevated jugular venous pressure, marked RV dilation, and pulmonary hypertension indicate predominant right‑sided failure, distinguishing it from classic left‑sided decompensation.
+  Supporting features:
+    - jugular_venous_pressure
+    - right_ventricular_overload
+    - pulmonary_hypertension
+    - transthoracic_echocardiogram
+    - blood_pressure
+    - furosemide
+    - lung_exam
+    - hypoxemia
+
+5. Severe COPD with emphysematous changes superimposed on asbestosis
+  Why: Heavy smoking history and CT‑identified cystic lucencies suggest emphysema coexisting with asbestos‑related fibrosis, accounting for chronic cough, wheezing, and hypoxemia.
+  Supporting features:
+    - tobacco_use
+    - chest_ct
+    - progressive_dyspnea
+    - dry_cough
+    - hypoxemia
+    - lung_exam
+
+6. Ventilator‑associated pneumonia with multidrug‑resistant Gram‑negative organisms
+  Why: New infiltrates after intubation, persistent hypoxemia, and broad‑spectrum antibiotic therapy raise suspicion for a hospital‑acquired pneumonia despite lack of fever.
+  Supporting features:
+    - chest_xray_day1
+    - ceftriaxone
+    - azithromycin
+    - levofloxacin
+    - hypoxemia
+    - progressive_dyspnea
+    - temperature
+
+7. Chronic thromboembolic pulmonary hypertension (CTEPH)
+  Why: Persistent right‑ventricular overload, syncope, and pulmonary hypertension without acute embolic event suggest organized thromboembolic disease as the underlying cause.
+  Supporting features:
+    - right_ventricular_overload
+    - pulmonary_hypertension
+    - syncope
+    - hypoxemia
+    - progressive_dyspnea
+    - blood_pressure
+    - jugular_venous_pressure
+
+8. Pleural mesothelioma associated with asbestos exposure
+  Why: Calcified pleural plaques, progressive dyspnea, weight loss, and mediastinal lymphadenopathy in an asbestos‑exposed individual raise concern for malignant mesothelial proliferation.
+  Supporting features:
+    - asbestosis_exposure
+    - chest_xray_day2
+    - weight_loss
+    - progressive_dyspnea
+    - chest_ct
+    - tobacco_use
+
+9. Opioid‑ and beta‑blocker‑induced respiratory depression
+  Why: Concurrent use of morphine and metoprolol can depress central respiratory drive and reduce cardiac output, contributing to somnolence, hypoxemia, and worsening dyspnea.
+  Supporting features:
+    - morphine
+    - metoprolol
+    - somnolence_and_reduced_interactivity
+    - hypoxemia
+    - progressive_dyspnea
+    - pulse
+
+10. Geriatric frailty with malnutrition contributing to functional decline and dyspnea
+  Why: Living alone, recent weight loss, decreased appetite, unsteady gait, and reduced interaction reflect frailty and possible malnutrition, exacerbating exertional dyspnea.
+  Supporting features:
+    - living_alone
+    - weight_loss
+    - decreased_appetite
+    - unsteady_gait
+    - somnolence_and_reduced_interactivity
+    - progressive_dyspnea
+
+----- Ranking Phase -----
+[2026-01-15 09:46:35]
+🏁 RANKING — Hypotheses ordered by plausibility:
+
+#1 — Group 3 pulmonary hypertension secondary to severe asbestosis-related interstitial lung disease
+  Parsimony: Integrates the interstitial lung disease, hypoxemia, right‑ventricular overload, and pulmonary hypertension in a single mechanism, requiring no additional unrelated pathologies.
+  Danger: Delay in recognizing severe PH from ILD can precipitate rapid right‑heart failure and death, as occurred.
+  Cost: Diagnosis relies on already‑performed CT, echocardiogram, and routine labs; no extra high‑cost investigations are needed.
+  Curability: While irreversible fibrosis limits cure, targeted PH therapy and supportive measures can modestly improve outcomes.
+
+#2 — Asbestosis with progressive massive fibrosis
+  Parsimony: Explains the bilateral reticular opacities, honeycombing, weight loss, and exposure history without invoking additional disease processes.
+  Danger: Advanced fibrotic asbestosis leads to progressive respiratory failure and secondary PH, a life‑threatening trajectory.
+  Cost: Diagnosis is based on existing imaging and exposure history; no further expensive testing required.
+  Curability: Fibrosis is largely irreversible, but early identification may allow antifibrotic therapy and lung‑transplant referral.
+
+#3 — Tricuspid regurgitation secondary to pacemaker lead‑induced valvular dysfunction contributing to cor pulmonale
+  Parsimony: Adds a single mechanical cause (lead‑induced TR) to the existing right‑heart overload, fitting the JVP elevation and syncope.
+  Danger: Unrecognized severe TR can worsen RV failure and precipitate hypotensive syncopal episodes.
+  Cost: Requires echocardiographic assessment of valve function, already performed, and possibly lead imaging; modest incremental cost.
+  Curability: Lead revision or surgical repair can improve TR, offering a potential therapeutic avenue.
+
+#4 — Acute right‑sided heart failure due to pulmonary hypertension rather than left‑sided volume overload
+  Parsimony: Attributes the clinical picture to RV failure from PH without adding extra etiologies beyond the documented hypertension.
+  Danger: Right‑sided failure can rapidly progress to circulatory collapse if untreated.
+  Cost: Relies on existing echocardiogram and hemodynamic data; no additional expensive studies.
+  Curability: Management is largely supportive; reversible only if underlying PH cause is treatable, which is limited in end‑stage ILD.
+
+#5 — Severe COPD with emphysematous changes superimposed on asbestosis
+  Parsimony: Accounts for smoking history and dyspnea but requires coexistence of two distinct parenchymal diseases, making it less simple than a single ILD explanation.
+  Danger: COPD exacerbations could worsen hypoxemia, yet the dominant threat remains the fibrotic disease.
+  Cost: Would need pulmonary function testing and possibly bronchodilator trials; modest additional cost.
+  Curability: COPD is chronic but treatable with bronchodilators; however, it would not reverse the advanced fibrosis.
+
+#6 — Chronic thromboembolic pulmonary hypertension (CTEPH)
+  Parsimony: Provides a single vascular cause for PH but lacks supporting evidence such as prior VTE, perfusion defects, or characteristic imaging.
+  Danger: If present, untreated CTEPH is fatal, but probability is low given the clinical context.
+  Cost: Definitive diagnosis requires V/Q scan or pulmonary angiography, adding significant expense.
+  Curability: Potentially curable with pulmonary thromboendarterectomy, but unlikely in this patient without supporting data.
+
+#7 — Pleural mesothelioma associated with asbestos exposure
+  Parsimony: Links asbestos exposure to a malignant pleural process, yet imaging shows interstitial, not pleural mass, making the explanation less direct.
+  Danger: Mesothelioma is aggressive, but its presence would not explain the diffuse pulmonary fibrosis and PH.
+  Cost: Diagnosis demands CT‑guided biopsy or PET imaging, incurring high cost.
+  Curability: Prognosis is poor; limited curative options exist, especially in an elderly patient.
+
+#8 — Opioid‑ and beta‑blocker‑induced respiratory depression
+  Parsimony: Attributes hypoxemia and somnolence to medications, but does not account for the chronic progressive dyspnea, imaging findings, or RV overload.
+  Danger: Medication‑induced depression can worsen ventilation, yet it is a reversible factor and not the primary lethal process.
+  Cost: Requires medication review and possible drug level testing; low cost.
+  Curability: Reversal is straightforward by adjusting or stopping the drugs, but would not treat the underlying ILD.
+
+#9 — Ventilator‑associated pneumonia with multidrug‑resistant Gram‑negative organisms
+  Parsimony: Explains a later worsening after intubation, not the initial presentation; adds an infectious layer on top of existing disease.
+  Danger: Can cause sepsis and death, yet it occurred after the primary disease trajectory was already established.
+  Cost: Requires cultures, possibly bronchoscopy; moderate additional expense.
+  Curability: Treatable with antibiotics, but the patient’s overall condition limited benefit.
+
+#10 — Geriatric frailty with malnutrition contributing to functional decline and dyspnea
+  Parsimony: Considers systemic vulnerability but does not explain the specific radiographic and hemodynamic abnormalities.
+  Danger: Frailty increases mortality risk, yet it is a background factor rather than a direct cause of the acute decompensation.
+  Cost: Assessment tools and nutritional labs are low cost.
+  Curability: Interventions can improve functional status but cannot reverse advanced pulmonary fibrosis and PH.
+
+----- Deduction Phase -----
+[2026-01-15 09:48:33]
+🔮 DEDUCTION — Expected consequences per hypothesis:
+
+• Group 3 pulmonary hypertension secondary to severe asbestosis-related interstitial lung disease
+  - [🔴 HIGH | ⏳ clinical_course] Progressive exertional dyspnea with limited lung volumes.
+  - [🔴 HIGH | ⏳ clinical_course] HRCT showing subpleural honeycombing, reticulation, and pleural plaques consistent with asbestosis.
+  - [🔴 HIGH | 🧪 test_result] Pulmonary function tests: restrictive pattern with ↓FVC, ↓DLCO.
+  - [🔴 HIGH | 🧪 test_result] Right‑heart catheterization: mean pulmonary arterial pressure ≥25 mmHg, pulmonary capillary wedge pressure normal, pulmonary vascular resistance ↑.
+  - [🔴 HIGH | 🧪 test_result] Transthoracic echocardiogram: right‑ventricular enlargement, estimated PASP ↑, mild–moderate tricuspid regurgitation.
+  - [🟠 MED | ⏳ clinical_course] Peripheral edema, jugular venous distension, hepatomegaly indicating cor pulmonale.
+  - [🟠 MED | 🧪 test_result] 6‑minute walk test: oxygen desaturation ≥4% or SpO₂ < 88%.
+  - [🟢 LOW | 🧪 test_result] Limited clinical response to pulmonary arterial vasodilators (e.g., endothelin receptor antagonists).
+
+• Asbestosis with progressive massive fibrosis
+  - [🔴 HIGH | ⏳ clinical_course] History of occupational asbestos exposure (≥20 years).
+  - [🔴 HIGH | 🧪 test_result] Chest CT: diffuse bilateral subpleural fibrosis with large (>1 cm) fibrotic masses (progressive massive fibrosis).
+  - [🔴 HIGH | 🧪 test_result] Chest radiograph: pleural plaques, reticular opacities, volume loss.
+  - [🔴 HIGH | 🧪 test_result] Pulmonary function tests: restrictive pattern, ↓FVC, ↓DLCO.
+  - [🟠 MED | ⏳ clinical_course] Gradual worsening of dyspnea and exercise intolerance over months to years.
+  - [🟠 MED | 🧪 test_result] Absence of granulomatous disease on imaging or biopsy.
+  - [🟢 LOW | ⏳ clinical_course] Increased risk for pleural mesothelioma (surveillance indicated).
+
+• Tricuspid regurgitation secondary to pacemaker lead‑induced valvular dysfunction contributing to cor pulmonale
+  - [🔴 HIGH | ⏳ clinical_course] Holosystolic murmur best heard at left lower sternal border, accentuated with inspiration.
+  - [🔴 HIGH | 🧪 test_result] Echocardiography: pacemaker lead traversing or impinging tricuspid valve with flail leaflet, moderate–severe TR.
+  - [🔴 HIGH | 🧪 test_result] Right‑ventricular dilation and reduced systolic function on echo.
+  - [🟠 MED | ⏳ clinical_course] Elevated right‑atrial pressure with hepatic congestion (elevated liver enzymes, palpable liver).
+  - [🟠 MED | 🧪 test_result] Pacemaker interrogation confirming lead position across tricuspid valve.
+  - [🟢 LOW | ⏳ clinical_course] Improvement of TR after lead repositioning or extraction.
+
+• Acute right‑sided heart failure due to pulmonary hypertension rather than left‑sided volume overload
+  - [🔴 HIGH | ⏳ clinical_course] Peripheral edema, jugular venous distension, and hepatomegaly with clear lung fields on chest radiograph.
+  - [🔴 HIGH | 🧪 test_result] BNP moderately elevated (e.g., 200–500 pg/mL) without pulmonary edema on imaging.
+  - [🔴 HIGH | 🧪 test_result] Transthoracic echo: right‑ventricular enlargement, septal flattening, estimated PASP ↑, normal left‑ventricular size and function.
+  - [🟠 MED | ⏳ clinical_course] Rapid diuresis improves systemic congestion but dyspnea persists due to persistent PH.
+  - [🟠 MED | 🧪 test_result] Right‑heart catheterization: elevated mean pulmonary arterial pressure with normal wedge pressure.
+
+• Severe COPD with emphysematous changes superimposed on asbestosis
+  - [🔴 HIGH | ⏳ clinical_course] Physical exam: barrel chest, decreased breath sounds, prolonged expiratory phase, possible wheezes.
+  - [🔴 HIGH | 🧪 test_result] Pulmonary function tests: obstructive pattern (↓FEV1/FVC), ↑ residual volume, ↓DLCO (from emphysema + asbestosis).
+  - [🔴 HIGH | 🧪 test_result] CT chest: centrilobular emphysema with bullae together with pleural plaques and subpleural fibrosis.
+  - [🟠 MED | 🧪 test_result] Arterial blood gas: chronic hypercapnia (PaCO₂ > 45 mmHg) and mild respiratory acidosis.
+  - [🟠 MED | 🧪 test_result] Hyperinflation on chest radiograph (flattened diaphragms, increased retrosternal airspace).
+  - [🟢 LOW | ⏳ clinical_course] Frequent exacerbations triggered by infection or pollutants.
+
+• Chronic thromboembolic pulmonary hypertension (CTEPH)
+  - [🔴 HIGH | ⏳ clinical_course] History of prior acute pulmonary embolism or unprovoked DVT.
+  - [🔴 HIGH | 🧪 test_result] Ventilation‑perfusion scan: multiple mismatched perfusion defects.
+  - [🔴 HIGH | 🧪 test_result] CT pulmonary angiography: chronic thrombus, webs, and stenoses in segmental/subsegmental arteries.
+  - [🔴 HIGH | 🧪 test_result] Echocardiogram: right‑ventricular dilation, elevated PASP, normal left‑ventricular filling pressures.
+  - [🟠 MED | ⏳ clinical_course] Exercise intolerance with syncope or presyncope on exertion.
+  - [🟠 MED | 🧪 test_result] Right‑heart catheterization: mean PAP ≥25 mmHg, normal wedge pressure, pulmonary vascular resistance ↑.
+  - [🟢 LOW | ⏳ clinical_course] Limited response to anticoagulation alone; consideration for pulmonary thromboendarterectomy or BPA.
+
+• Pleural mesothelioma associated with asbestos exposure
+  - [🔴 HIGH | 🧪 test_result] Chest CT: circumferential pleural thickening, nodular plaques, possible pleural effusion.
+  - [🔴 HIGH | 🧪 test_result] Pleural fluid cytology: malignant mesothelial cells (when effusion present).
+  - [🟠 MED | ⏳ clinical_course] Chest pain, unintentional weight loss, and night sweats.
+  - [🟠 MED | 🧪 test_result] Elevated serum mesothelin‑related peptide (SMRP) or fibulin‑3.
+  - [🟢 LOW | ⏳ clinical_course] Absent significant pulmonary hypertension early in disease.
+
+• Opioid‑ and beta‑blocker‑induced respiratory depression
+  - [🔴 HIGH | ⏳ clinical_course] Respiratory rate <10 breaths/min with hypoventilation.
+  - [🔴 HIGH | 🧪 test_result] Arterial blood gas: hypercapnia (PaCO₂ > 45 mmHg) and respiratory acidosis.
+  - [🟠 MED | ⏳ clinical_course] Improvement in ventilation after naloxone administration or reduction of opioid dose.
+  - [🟠 MED | 🧪 test_result] Normal lung parenchyma on chest imaging (no infiltrates).
+  - [🟢 LOW | ⏳ clinical_course] Possible bradycardia due to beta‑blocker effect.
+
+• Ventilator‑associated pneumonia with multidrug‑resistant Gram‑negative organisms
+  - [🔴 HIGH | ⏳ clinical_course] Fever ≥38 °C, leukocytosis, and elevated procalcitonin.
+  - [🔴 HIGH | 🧪 test_result] New infiltrate on chest radiograph or CT consistent with pneumonia.
+  - [🔴 HIGH | 🧪 test_result] Endotracheal aspirate or bronchoalveolar lavage culture growing MDR Gram‑negative bacilli (e.g., Pseudomonas aeruginosa, Acinetobacter baumannii).
+  - [🟠 MED | ⏳ clinical_course] Worsening oxygenation: increased FiO₂ requirement, higher PaO₂/FiO₂ ratio decline.
+  - [🟠 MED | ⏳ clinical_course] Partial or complete clinical response after initiation of broad‑spectrum anti‑pseudomonal antibiotics.
+
+• Geriatric frailty with malnutrition contributing to functional decline and dyspnea
+  - [🔴 HIGH | ⏳ clinical_course] Unintentional weight loss >5 % in 6 months and BMI <20 kg/m².
+  - [🔴 HIGH | ⏳ clinical_course] Slow gait speed (<0.8 m/s) and decreased hand‑grip strength.
+  - [🔴 HIGH | 🧪 test_result] Serum albumin ↓ (<3.5 g/dL) and prealbumin ↓.
+  - [🟠 MED | ⏳ clinical_course] Exertional dyspnea disproportionate to pulmonary findings; early fatigue on activity.
+  - [🟠 MED | 🧪 test_result] Anemia of chronic disease (normocytic, Hb < 12 g/dL).
+  - [🟢 LOW | ⏳ clinical_course] Improvement in functional status with nutritional supplementation and resistance exercise.
+
+----- Induction Phase -----
+[2026-01-15 09:53:22]
+🧾 INDUCTION — Matching expected vs observed:
+
+• Group 3 pulmonary hypertension secondary to severe asbestosis-related interstitial lung disease
+  Evaluation: plausible
+  Termination: continue_testing
+  Why: continue_testing
+  Findings summary: ✅ 4 | ❓ 4 | ❌ 0
+  Findings:
+    - ✅ Progressive exertional dyspnea with limited lung volumes
+      ↳ The patient had progressive dyspnea over 6 months.
+    - ✅ HRCT showing subpleural honeycombing, reticulation, pleural plaques consistent with asbestosis
+      ↳ CT demonstrated honeycomb changes, traction bronchiectasis, and calcified pleural plaques.
+    - ❓ Pulmonary function tests: restrictive pattern with ↓FVC, ↓DLCO
+      ↳ No PFT data were provided.
+    - ❓ Right‑heart catheterization: mean PAP ≥25, PCWP normal, PVR ↑
+      ↳ No catheterization data were provided.
+    - ✅ Transthoracic echo: RV enlargement, estimated PASP ↑, mild‑moderate TR
+      ↳ Echocardiogram showed markedly dilated RV, moderate‑severe TR and pulmonary hypertension.
+    - ❓ 6‑minute walk test: oxygen desaturation ≥4% or SpO₂ < 88%
+      ↳ No walk test data were provided.
+    - ✅ Peripheral edema, jugular venous distension, hepatomegaly indicating cor pulmonale
+      ↳ Elevated JVP (14 cm) was documented.
+    - ❓ Limited clinical response to pulmonary arterial vasodilators (e.g., endothelin receptor antagonists)
+      ↳ No information on vasodilator therapy was provided.
+
+• Asbestosis with progressive massive fibrosis
+  Evaluation: plausible
+  Termination: continue_testing
+  Why: continue_testing
+  Findings summary: ✅ 3 | ❓ 4 | ❌ 0
+  Findings:
+    - ❓ Chest CT: diffuse bilateral subpleural fibrosis with large (>1 cm) fibrotic masses (progressive massive fibrosis)
+      ↳ No large fibrotic masses were described on CT.
+    - ✅ Chest radiograph: pleural plaques, reticular opacities, volume loss
+      ↳ Radiographs showed pleural plaques and coarse reticular opacities.
+    - ❓ Pulmonary function tests: restrictive pattern ↓FVC, ↓DLCO
+      ↳ PFT results were not provided.
+    - ✅ History of occupational asbestos exposure ≥20 years
+      ↳ Patient worked in a shipyard with asbestos exposure.
+    - ❓ Absence of granulomatous disease on imaging or biopsy
+      ↳ No mention of granulomatous disease.
+    - ✅ Gradual worsening of dyspnea and exercise intolerance over months to years
+      ↳ Dyspnea progressed over 6 months.
+    - ❓ Increased risk for pleural mesothelioma (surveillance indicated)
+      ↳ No surveillance information was given.
+
+• Tricuspid regurgitation secondary to pacemaker lead‑induced valvular dysfunction contributing to cor pulmonale
+  Evaluation: plausible
+  Termination: continue_testing
+  Why: continue_testing
+  Findings summary: ✅ 1 | ❓ 5 | ❌ 0
+  Findings:
+    - ❓ Echo: pacemaker lead traversing or impinging tricuspid valve with flail leaflet, moderate‑severe TR
+      ↳ Echocardiogram did not comment on lead position relative to the valve.
+    - ✅ RV dilation and reduced systolic function on echo
+      ↳ RV was markedly dilated and hypokinetic.
+    - ❓ Holosystolic murmur at left lower sternal border, accentuated with inspiration
+      ↳ No murmur was documented.
+    - ❓ Elevated right‑atrial pressure with hepatic congestion (elevated liver enzymes, palpable liver)
+      ↳ No hepatic findings were reported.
+    - ❓ Pacemaker interrogation confirming lead position across tricuspid valve
+      ↳ No interrogation data were provided.
+    - ❓ Improvement of TR after lead repositioning or extraction
+      ↳ No such intervention was described.
+
+• Acute right‑sided heart failure due to pulmonary hypertension rather than left‑sided volume overload
+  Evaluation: refuted
+  Termination: reopen_abduction
+  Why: reopen_abduction
+  Findings summary: ✅ 1 | ❓ 3 | ❌ 1
+  Findings:
+    - ❌ Peripheral edema, jugular venous distension, hepatomegaly indicating cor pulmonale with clear lung fields on chest radiograph
+      ↳ Chest imaging showed crackles and infiltrates, not clear fields.
+    - ❓ BNP moderately elevated (200–500) without pulmonary edema on imaging
+      ↳ BNP values were not given.
+    - ✅ Echo: RV enlargement, septal flattening, estimated PASP ↑, normal LV size/function
+      ↳ Echocardiogram matched these findings.
+    - ❓ Rapid diuresis improves systemic congestion but dyspnea persists due to persistent PH
+      ↳ No specific response to diuresis was reported.
+    - ❓ Right‑heart catheterization: elevated mean PAP with normal wedge pressure
+      ↳ No catheterization data were provided.
+
+• Severe COPD with emphysematous changes superimposed on asbestosis
+  Evaluation: refuted
+  Termination: reopen_abduction
+  Why: reopen_abduction
+  Findings summary: ✅ 0 | ❓ 6 | ❌ 0
+  Findings:
+    - ❓ Pulmonary function tests: obstructive pattern with ↓FVC, ↓FEV1, ↓DLCO
+      ↳ PFT results were not available.
+    - ❓ CT chest: centrilobular emphysema with bullae together with pleural plaques and subpleural fibrosis
+      ↳ CT described honeycombing but not centrilobular emphysema or bullae.
+    - ❓ Physical exam: barrel chest, decreased breath sounds, prolonged expiratory phase, possible wheezes
+      ↳ Exam noted crackles and wheezes but no barrel chest or decreased breath sounds.
+    - ❓ Arterial blood gas: chronic hypercapnia (PaCO2 ↑) with respiratory acidosis
+      ↳ ABG data were not supplied.
+    - ❓ Hyperinflation on chest radiograph
+      ↳ Radiographs showed volume loss rather than hyperinflation.
+    - ❓ Frequent exacerbations triggered by infection
+      ↳ No history of recurrent exacerbations was described.
+
+• Chronic thromboembolic pulmonary hypertension (CTEPH)
+  Evaluation: plausible
+  Termination: continue_testing
+  Why: continue_testing
+  Findings summary: ✅ 2 | ❓ 5 | ❌ 0
+  Findings:
+    - ❓ Ventilation‑perfusion scan showing mismatched perfusion defects
+      ↳ No V/Q scan was performed.
+    - ❓ CT pulmonary angiography: chronic thrombus, webs, stenoses
+      ↳ CT angiography was not reported.
+    - ❓ History of prior acute pulmonary embolism or unprovoked deep vein thrombosis
+      ↳ No prior thromboembolic history was mentioned.
+    - ✅ Echo: RV dilation, elevated PASP, normal LV filling pressures
+      ↳ Echo demonstrated RV dilation and pulmonary hypertension with normal LV filling.
+    - ❓ Right‑heart catheterization: elevated mean PAP with normal wedge, PVR ↑
+      ↳ Catheterization data were not provided.
+    - ✅ Exercise intolerance with syncope/presyncope
+      ↳ The patient experienced presyncope.
+    - ❓ Limited response to anticoagulation alone; consideration for surgery
+      ↳ No information on anticoagulation response was given.
+
+• Chronic thromboembolic pulmonary hypertension (CTEPH)
+  Evaluation: plausible
+  Termination: continue_testing
+  Why: continue_testing
+  Findings summary: ✅ 2 | ❓ 5 | ❌ 0
+  Findings:
+    - ❓ Ventilation‑perfusion scan showing mismatched perfusion defects
+      ↳ V/Q scan was not performed.
+    - ❓ CT pulmonary angiography: chronic thrombus, webs, stenoses
+      ↳ CT angiography was not reported.
+    - ❓ History of prior acute pulmonary embolism or unprovoked deep vein thrombosis
+      ↳ No such history was documented.
+    - ✅ Echo: RV dilation, elevated PASP, normal LV filling pressures
+      ↳ Echocardiogram demonstrated these findings.
+    - ❓ Right‑heart catheterization: elevated mean PAP with normal wedge, PVR ↑
+      ↳ No catheterization data were provided.
+    - ✅ Exercise intolerance with syncope/presyncope
+      ↳ Patient experienced presyncope.
+    - ❓ Limited response to anticoagulation alone; consideration for surgery
+      ↳ No details on anticoagulation response were given.
+
+• Pleural mesothelioma associated with asbestos exposure
+  Evaluation: refuted
+  Termination: reopen_abduction
+  Why: reopen_abduction
+  Findings summary: ✅ 0 | ❓ 4 | ❌ 1
+  Findings:
+    - ❓ CT: circumferential pleural thickening, nodular plaques, possible pleural effusion
+      ↳ CT showed plaques but not circumferential thickening or effusion.
+    - ❓ Pleural fluid cytology: malignant cells
+      ↳ No pleural fluid analysis was reported.
+    - ❓ Elevated serum mesothelin
+      ↳ Serum markers were not provided.
+    - ❓ Chest pain, weight loss, night sweats
+      ↳ These systemic symptoms were not described.
+    - ❌ Absent significant pulmonary hypertension early in disease
+      ↳ The patient had significant pulmonary hypertension.
+
+• Opioid‑ and beta‑blocker‑induced respiratory depression
+  Evaluation: refuted
+  Termination: reopen_abduction
+  Why: reopen_abduction
+  Findings summary: ✅ 0 | ❓ 3 | ❌ 2
+  Findings:
+    - ❌ Respiratory rate <10 breaths/min with hypoventilation
+      ↳ Respiratory rate was 20‑30 breaths/min, not <10.
+    - ❓ ABG: hypercapnia, respiratory acidosis
+      ↳ ABG results were not given.
+    - ❌ Normal lung parenchyma on imaging (no infiltrates)
+      ↳ Imaging showed infiltrates and crackles.
+    - ❓ Improvement after naloxone or opioid reduction
+      ↳ No reversal attempt was reported.
+    - ❓ Possible bradycardia due to beta‑blocker effect
+      ↳ No bradycardia was noted.
+
+• Ventilator‑associated pneumonia with multidrug‑resistant Gram‑negative organisms
+  Evaluation: plausible
+  Termination: continue_testing
+  Why: continue_testing
+  Findings summary: ✅ 1 | ❓ 4 | ❌ 0
+  Findings:
+    - ❓ New infiltrate on chest radiograph or CT consistent with pneumonia
+      ↳ No distinct new infiltrate after intubation was described.
+    - ❓ Fever ≥38°C, leukocytosis, elevated procalcitonin
+      ↳ Fever and laboratory inflammatory markers were not mentioned.
+    - ❓ Culture growth MDR Gram‑negative
+      ↳ No microbiology results were provided.
+    - ✅ Worsening oxygenation: increased FiO2, lower PaO2/FiO2
+      ↳ Oxygenation worsened despite maximal support.
+    - ❓ Partial or complete response after antibiotics
+      ↳ Broad‑spectrum antibiotics were given without clinical improvement.
+
+----- Ranking Phase -----
+[2026-01-15 09:54:37]
+🏁 RANKING — Hypotheses ordered by plausibility:
+
+#1 — Group 3 pulmonary hypertension secondary to severe asbestosis-related interstitial lung disease
+  Parsimony: Explains dyspnea, crackles, honeycombing, pleural plaques, RV enlargement and PH with a single disease process (asbestosis) that is documented.
+  Danger: Pulmonary hypertension and right‑heart failure are rapidly fatal in an elderly patient; early identification can alter management.
+  Cost: Requires only non‑invasive tests already obtained (HRCT, echocardiogram, basic labs) and routine follow‑up PFTs.
+  Curability: Not curable, but disease‑modifying therapy and PH‑specific treatment can improve symptoms and prolong survival.
+
+#2 — Asbestosis with progressive massive fibrosis
+  Parsimony: Accounts for occupational exposure, pleural plaques, reticular opacities and progressive dyspnea without invoking additional pathophysiology.
+  Danger: Advanced fibrosis leads to restrictive lung failure and secondary PH, a major cause of morbidity.
+  Cost: Diagnosis rests on imaging already performed; additional PFTs add minimal expense.
+  Curability: Fibrosis is irreversible, but supportive care and oxygen can ameliorate symptoms.
+
+#3 — Tricuspid regurgitation secondary to pacemaker lead‑induced valvular dysfunction contributing to cor pulmonale
+  Parsimony: Adds a mechanical cause for TR but requires extra evidence (lead position, murmur) not present, making it less simple than primary ILD.
+  Danger: Severe TR can worsen right‑sided failure, yet the dominant driver appears to be PH from lung disease.
+  Cost: Would need lead interrogation, possibly trans‑esophageal echo or surgical revision, increasing resource use.
+  Curability: Potentially correctable with lead revision, but the overall prognosis remains limited by underlying lung disease.
+
+#4 — Chronic thromboembolic pulmonary hypertension (CTEPH)
+  Parsimony: Introduces an unrelated thromboembolic process without any history of PE, DVT, or typical imaging findings, making it less parsimonious.
+  Danger: CTEPH is life‑threatening but can be cured surgically; delayed diagnosis would be harmful.
+  Cost: Requires V/Q scan, CT‑PA, right‑heart catheterization—higher diagnostic expense.
+  Curability: Potentially curable with pulmonary endarterectomy or balloon pulmonary angioplasty, offering the best chance of reversal if present.
+
+#5 — Chronic thromboembolic pulmonary hypertension (CTEPH)
+  Parsimony: Duplicate hypothesis; same reasoning as H6, retained lower rank due to redundancy.
+  Danger: Same as H6.
+  Cost: Same as H6.
+  Curability: Same as H6.
+
+#6 — Ventilator‑associated pneumonia with multidrug‑resistant Gram‑negative organisms
+  Parsimony: Explains late worsening oxygenation but occurs after intubation; does not account for the six‑month pre‑hospital course.
+  Danger: VAP can be fatal, yet it is a complication rather than the primary disease driver.
+  Cost: Requires cultures, possibly bronchoscopy and broad‑spectrum antibiotics, adding moderate cost.
+  Curability: Treatable with appropriate antibiotics, but mortality remains high in this frail patient.
+
+#7 — Acute right‑sided heart failure due to pulmonary hypertension rather than left‑sided volume overload
+  Parsimony: Narrows the mechanism to isolated right‑sided failure but contradicts imaging that shows pulmonary infiltrates, making it less consistent.
+  Danger: Right‑sided failure is dangerous, yet the broader diagnosis of PH from lung disease already captures this risk.
+  Cost: No additional testing beyond what has been done; low incremental cost.
+  Curability: Management overlaps with PH treatment; no unique curative option beyond addressing underlying lung disease.
+
+#8 — Severe COPD with emphysematous changes superimposed on asbestosis
+  Parsimony: Adds an obstructive component not supported by imaging or physical exam, decreasing simplicity.
+  Danger: COPD exacerbations are dangerous, but there is no evidence of obstructive physiology in this case.
+  Cost: Would require PFTs and possibly bronchodilator trials, modest cost.
+  Curability: COPD is chronic; therapy can reduce symptoms but not cure the disease.
+
+#9 — Pleural mesothelioma associated with asbestos exposure
+  Parsimony: Requires malignant pleural disease which is not evident on imaging; adds unnecessary complexity.
+  Danger: Highly lethal, but absence of characteristic findings lowers immediate concern.
+  Cost: Needs biopsy, cytology, advanced imaging—high cost.
+  Curability: Generally incurable; treatment is palliative, offering limited benefit.
+
+#10 — Opioid‑ and beta‑blocker‑induced respiratory depression
+  Parsimony: Respiratory rate and imaging are inconsistent with drug‑induced depression; adds unnecessary pharmacologic cause.
+  Danger: Potentially dangerous if present, but evidence contradicts this mechanism.
+  Cost: Would require ABG and medication adjustments, low cost but unnecessary.
+  Curability: Reversible with drug cessation, yet not applicable to this patient’s presentation.

@@ -1,0 +1,44 @@
+{
+    "diagnoses": [
+        {
+            "diagnosis": "Asbestosis\u2010related usual interstitial pneumonia (UIP) with progressive fibrotic lung disease",
+            "explanation": "The patient had a long\u2011term occupational exposure to asbestos (shipyard work), a classic risk factor for asbestosis.  Imaging showed bilateral coarse reticular opacities, basal predominance, pleural plaques on the right hemidiaphragm, honey\u2011comb changes, traction bronchiectasis and diffuse ground\u2011glass attenuation \u2013 a pattern that matches UIP/fibrotic asbestosis.  Weight loss, chronic dry cough, exertional dyspnoea slowly worsening over 6\u202fmonths, and a low\u2011grade restrictive physiology on the CT all fit.  Asbestosis is the most parsimonious unifying diagnosis and would explain the progressive right\u2011ventricular overload (cor pulmonale) that developed later."
+        },
+        {
+            "diagnosis": "Idiopathic pulmonary fibrosis (IPF) \u2013 UIP pattern",
+            "explanation": "Even without asbestos, the patient\u2019s age, heavy smoking history, and CT features (basilar honey\u2011comb, traction bronchiectasis, subpleural reticulation, limited ground\u2011glass) are classic for IPF.  The clinical course (slow progression over months, acute decompensation with hypoxaemia) also matches an IPF exacerbation.  Because asbestosis and IPF can be histologically indistinguishable, IPF remains a close differential."
+        },
+        {
+            "diagnosis": "Combined pulmonary fibrosis and emphysema (CPFE)",
+            "explanation": "The patient smoked three packs per day for 50\u202fyears, a risk factor for emphysema.  CPFE presents with upper\u2011lobe emphysema superimposed on lower\u2011lobe fibrosis, producing marked dyspnoea, preserved lung volumes but severe gas\u2011exchange impairment, and a high prevalence of pulmonary hypertension and cor pulmonale.  The CT description emphasised diffuse cystic lucency at the bases which could represent emphysematous change mixed with fibrosis."
+        },
+        {
+            "diagnosis": "Acute exacerbation of chronic interstitial lung disease (AE\u2011ILD)",
+            "explanation": "On day\u202f3\u20114 the patient\u2019s oxygen saturation fell rapidly despite maximal supportive therapy, and CT showed new diffuse ground\u2011glass opacification superimposed on chronic fibrosis \u2013 the radiographic hallmark of an acute exacerbation.  AE\u2011ILD is a common cause of rapid decompensation and death in patients with IPF or asbestosis."
+        },
+        {
+            "diagnosis": "Cor pulmonale secondary to chronic pulmonary hypertension (Group\u202f3 PH)",
+            "explanation": "Echocardiography demonstrated marked right\u2011ventricular dilation, hypokinesia, moderate\u2011to\u2011severe tricuspid regurgitation, and interventricular septal flattening\u2014findings consistent with right\u2011sided pressure and volume overload.  In the setting of severe fibrotic lung disease, pulmonary vascular remodeling leads to pulmonary hypertension, which then produces the elevated JVP, peripheral oedema (though not prominent), and eventually low\u2011output circulatory collapse seen in this patient."
+        },
+        {
+            "diagnosis": "Superimposed bacterial pneumonia (ventilator\u2011associated/ community\u2011acquired)",
+            "explanation": "The patient was febrile\u2011negative but received broad\u2011spectrum antibiotics (ceftriaxone, azithromycin, levofloxacin).  In frail, elderly patients with underlying fibrosis, infection can present with minimal fever, rapid desaturation, and new air\u2011space opacities.  Lung infiltrates on chest radiographs and the need for aggressive antimicrobial therapy support this as a contributing factor, even if it was not the primary driver of disease."
+        },
+        {
+            "diagnosis": "Acute pulmonary embolism (PE) on chronic lung disease",
+            "explanation": "Acute dyspnoea, hypoxaemia, syncope with a transient systolic BP of 60\u202fmm\u202fHg, and right\u2011ventricular dilation raise suspicion for PE.  The patient\u2019s immobility (hospitalised, limited ambulation) and hypercoagulable state (cancer risk, inflammation) increase risk.  However, the CT angiogram was not performed and the predominant imaging findings were fibrotic, making PE less likely than the above diagnoses, yet still a plausible acute trigger."
+        },
+        {
+            "diagnosis": "Pacemaker lead\u2011related right\u2011ventricular perforation or pacing\u2011induced cardiomyopathy",
+            "explanation": "The patient had a dual\u2011chamber pacemaker placed 6\u202fyears earlier.  Lead malposition or chronic right\u2011ventricular septal pacing can cause dyssynchrony, contributing to right\u2011ventricular dysfunction and low cardiac output.  The syncopal episode with a brief period of profound hypotension could be related to an intermittent loss of capture or arrhythmia secondary to lead dysfunction.  No ectopy was noted on ECG, but lead\u2011related mechanical injury cannot be excluded without fluoroscopic or post\u2011mortem evaluation."
+        },
+        {
+            "diagnosis": "Malignancy \u2013 asbestos\u2011related bronchogenic carcinoma or pleural mesothelioma",
+            "explanation": "Heavy asbestos exposure, long\u2011term smoking, weight loss, and mediastinal/hilar lymphadenopathy raise concern for lung cancer or mesothelioma.  The CT, however, did not reveal a dominant mass; the diffuse fibrotic pattern made malignancy less apparent.  Nevertheless, occult carcinoma can coexist with UIP\u2011type fibrosis and may have contributed to the rapid decline."
+        },
+        {
+            "diagnosis": "Diffuse alveolar hemorrhage (DAH) secondary to anticoagulation or vasculitis",
+            "explanation": "The patient received heparin and antiplatelet agents, which together can precipitate bleeding in a diseased lung.  DAH can present with sudden hypoxaemia, diffuse ground\u2011glass opacities, and rapid deterioration, mimicking infection or exacerbation.  No hemoptysis was reported, and labs did not show a falling haemoglobin, making this the least likely but still a remote possibility."
+        }
+    ]
+}

@@ -1,0 +1,732 @@
+
+----- Abstraction Phase -----
+[2026-01-15 10:58:48]
+🧱 ABSTRACTION — The features abstracted by the text are:
+* [1] The category is "Current Medications" for the finding "metformin" and the explanation is "Diabetes medication".
+* [2] The category is "Current Medications" for the finding "rosiglitazone" and the explanation is "Diabetes medication".
+* [3] The category is "Current Medications" for the finding "acetylsalicylic acid" and the explanation is "Antiplatelet".
+* [4] The category is "Current Medications" for the finding "captopril" and the explanation is "Antihypertensive".
+* [5] The category is "Current Medications" for the finding "metoprolol" and the explanation is "Beta blocker".
+* [6] The category is "Current Medications" for the finding "atorvastatin" and the explanation is "Lipid lowering".
+* [7] The category is "Current Medications" for the finding "furosemide" and the explanation is "Loop diuretic".
+* [8] The category is "Current Medications" for the finding "tolazamide" and the explanation is "Sulfonylurea for diabetes".
+* [9] The category is "Current Medications" for the finding "nifedipine" and the explanation is "Calcium channel blocker".
+* [10] The category is "Current Medications" for the finding "cimetidine" and the explanation is "H2 blocker".
+* [11] The category is "Current Medications" for the finding "esomeprazole" and the explanation is "Proton pump inhibitor".
+* [12] The category is "Current Medications" for the finding "insulin sliding scale" and the explanation is "Hyperglycemia management".
+* [13] The category is "Current Medications" for the finding "heparin" and the explanation is "Anticoagulation".
+* [14] The category is "Current Medications" for the finding "low-dose acetylsalicylic acid" and the explanation is "Antiplatelet".
+* [15] The category is "Social & Community Context" for the finding "retired plumber" and the explanation is "Previous occupation with asbestos exposure".
+* [16] The category is "Social & Community Context" for the finding "asbestos exposure" and the explanation is "Occupational exposure in shipyard work".
+* [17] The category is "Social & Community Context" for the finding "former smoker" and the explanation is "3 packs per day for 50 years, quit 14 years ago".
+* [18] The category is "Social & Community Context" for the finding "occasional alcohol use" and the explanation is "Social alcohol consumption".
+* [19] The category is "Social & Community Context" for the finding "no illicit drug use" and the explanation is "Denies illicit drug use".
+* [20] The category is "Physical Examination" for the finding "temperature 36.1 C" and the explanation is "Normal temperature".
+* [21] The category is "Physical Examination" for the finding "blood pressure 105/43 mmHg" and the explanation is "Low diastolic pressure".
+* [22] The category is "Physical Examination" for the finding "pulse 81 beats per minute" and the explanation is "Normal heart rate".
+* [23] The category is "Physical Examination" for the finding "respirations 28 per minute" and the explanation is "Tachypnea".
+* [24] The category is "Physical Examination" for the finding "oxygen saturation 78% on room air" and the explanation is "Severe hypoxemia".
+* [25] The category is "Physical Examination" for the finding "oxygen saturation 91% on 6 L nasal cannula" and the explanation is "Improved with supplemental oxygen".
+* [26] The category is "Physical Examination" for the finding "oxygen saturation 100% on nonrebreather mask" and the explanation is "Full correction with high flow oxygen".
+* [27] The category is "Physical Examination" for the finding "jugular venous pulse 14 cm above right atrium" and the explanation is "Elevated JVP".
+* [28] The category is "Physical Examination" for the finding "crackles halfway up lungs" and the explanation is "Pulmonary congestion".
+* [29] The category is "Physical Examination" for the finding "occasional expiratory wheezes" and the explanation is "Airway obstruction".
+* [30] The category is "Physical Examination" for the finding "remainder of exam normal" and the explanation is "No additional findings".
+* [31] The category is "Past Medical History" for the finding "diabetes mellitus" and the explanation is "Chronic condition".
+* [32] The category is "Past Medical History" for the finding "coronary artery disease" and the explanation is "Cardiovascular disease".
+* [33] The category is "Past Medical History" for the finding "complete heart block" and the explanation is "Cardiac conduction disorder".
+* [34] The category is "Past Medical History" for the finding "hypertension" and the explanation is "Elevated blood pressure".
+* [35] The category is "Past Medical History" for the finding "hyperlipidemia" and the explanation is "Elevated cholesterol".
+* [36] The category is "Past Medical History" for the finding "cerebrovascular disease" and the explanation is "History of cerebrovascular pathology".
+* [37] The category is "Past Medical History" for the finding "osteoarthritis" and the explanation is "Degenerative joint disease".
+* [38] The category is "Past Medical History" for the finding "hearing impairment" and the explanation is "Sensory deficit".
+* [39] The category is "Past Medical History" for the finding "vertigo" and the explanation is "Balance disorder".
+* [40] The category is "Past Medical History" for the finding "cataracts" and the explanation is "Ocular condition".
+* [41] The category is "Past Medical History" for the finding "coronary artery stent (10 years prior)" and the explanation is "Revascularization".
+* [42] The category is "Past Medical History" for the finding "pacemaker insertion (6 years prior)" and the explanation is "Management of complete heart block".
+* [43] The category is "Past Medical History" for the finding "transurethral prostatectomy" and the explanation is "Urologic surgery".
+* [44] The category is "Family History" for the finding "mother died at 49 (unknown cause)" and the explanation is "Family health information".
+* [45] The category is "Family History" for the finding "father died of colon cancer" and the explanation is "Family cancer history".
+* [46] The category is "Family History" for the finding "brother had heart disease and asbestosis" and the explanation is "Family pulmonary and cardiac disease".
+* [47] The category is "History of Present Illness" for the finding "progressive dyspnea over 6 months" and the explanation is "Primary presenting symptom".
+* [48] The category is "History of Present Illness" for the finding "exercise capacity decreased from walking three blocks to climbing one flight of stairs" and the explanation is "Functional decline".
+* [49] The category is "History of Present Illness" for the finding "dyspnea worsened 3 days before admission, difficulty walking two to three steps" and the explanation is "Acute worsening".
+* [50] The category is "History of Present Illness" for the finding "somnolence, decreased appetite, decreased urine output, unsteady gait in days before admission" and the explanation is "Systemic decompensation".
+* [51] The category is "History of Present Illness" for the finding "labored breathing on EMS arrival" and the explanation is "Acute respiratory distress".
+* [52] The category is "History of Present Illness" for the finding "no fevers, chills, night sweats, chest pain, leg edema" and the explanation is "Negative review of systems".
+* [53] The category is "History of Present Illness" for the finding "chronic dry cough unchanged" and the explanation is "Baseline respiratory symptom".
+* [54] The category is "History of Present Illness" for the finding "weight loss ~2.3 kg over 2 months" and the explanation is "Unintentional weight loss".
+* [55] The category is "Physical Examination" for the finding "rales in both lung fields on EMS arrival" and the explanation is "Pulmonary congestion".
+* [56] The category is "Physical Examination" for the finding "oxygen saturation 78% on ambient air" and the explanation is "Severe hypoxemia".
+* [57] The category is "Physical Examination" for the finding "oxygen saturation 91% with supplemental oxygen (6 L) by nasal cannula" and the explanation is "Partial improvement with low-flow oxygen".
+* [58] The category is "Physical Examination" for the finding "oxygen saturation 100% with nonrebreather mask" and the explanation is "Full correction with high-flow oxygen".
+* [59] The category is "Physical Examination" for the finding "crackles extended halfway up lungs" and the explanation is "Pulmonary edema".
+* [60] The category is "Physical Examination" for the finding "occasional expiratory wheezes" and the explanation is "Airway narrowing".
+* [61] The category is "Physical Examination" for the finding "remainder of examination normal" and the explanation is "No additional abnormalities".
+* [62] The category is "Physical Examination" for the finding "JVP visible at 14 cm above right atrium" and the explanation is "Elevated central venous pressure".
+* [63] The category is "Physical Examination" for the finding "no fever (36.1°C) on admission" and the explanation is "Afebrile".
+* [64] The category is "Physical Examination" for the finding "blood pressure 105/43 mmHg on admission" and the explanation is "Hypotension".
+* [65] The category is "Physical Examination" for the finding "pulse 81 beats per minute on admission" and the explanation is "Normal heart rate".
+* [66] The category is "Physical Examination" for the finding "respirations 28 per minute on admission" and the explanation is "Tachypnea".
+* [67] The category is "Physical Examination" for the finding "oxygen saturation 78% on room air on admission" and the explanation is "Severe hypoxemia".
+* [68] The category is "Physical Examination" for the finding "oxygen saturation 91% with supplemental oxygen (6 L) by nasal cannula on admission" and the explanation is "Improved with low-flow oxygen".
+* [69] The category is "Physical Examination" for the finding "oxygen saturation 100% while breathing from a nonrebreather mask on admission" and the explanation is "Full correction with high-flow oxygen".
+* [70] The category is "Physical Examination" for the finding "crackles extended halfway up the lungs on admission" and the explanation is "Pulmonary edema".
+* [71] The category is "Physical Examination" for the finding "occasional expiratory wheezes on admission" and the explanation is "Airway narrowing".
+* [72] The category is "Physical Examination" for the finding "remainder of the examination normal on admission" and the explanation is "No other abnormal findings".
+* [73] The category is "Physical Examination" for the finding "JVP visible at 14 cm above right atrium on admission" and the explanation is "Elevated central venous pressure".
+* [74] The category is "Physical Examination" for the finding "temperature 36.1°C (97.0°F) on admission" and the explanation is "Afebrile".
+* [75] The category is "Physical Examination" for the finding "blood pressure 105/43 mmHg on admission" and the explanation is "Low diastolic pressure".
+* [76] The category is "Physical Examination" for the finding "pulse 81 beats per minute on admission" and the explanation is "Normal heart rate".
+* [77] The category is "Physical Examination" for the finding "respirations 28 per minute on admission" and the explanation is "Tachypnea".
+* [78] The category is "Physical Examination" for the finding "oxygen saturation 78% on room air on admission" and the explanation is "Severe hypoxemia".
+* [79] The category is "Physical Examination" for the finding "oxygen saturation 91% with supplemental oxygen (6 L) by nasal cannula on admission" and the explanation is "Partial improvement with low-flow oxygen".
+* [80] The category is "Physical Examination" for the finding "oxygen saturation 100% while breathing from a nonrebreather mask on admission" and the explanation is "Full correction with high-flow oxygen".
+* [81] The category is "Physical Examination" for the finding "crackles extended halfway up the lungs on admission" and the explanation is "Pulmonary congestion".
+* [82] The category is "Physical Examination" for the finding "occasional expiratory wheezes on admission" and the explanation is "Airway narrowing".
+* [83] The category is "Physical Examination" for the finding "remainder of the examination normal on admission" and the explanation is "No other abnormal findings".
+* [84] The category is "Physical Examination" for the finding "JVP visible at 14 cm above right atrium on admission" and the explanation is "Elevated jugular venous pressure".
+* [85] The category is "Physical Examination" for the finding "temperature 36.1°C (97°F) on admission" and the explanation is "Afebrile".
+* [86] The category is "Physical Examination" for the finding "blood pressure 105/43 mmHg on admission" and the explanation is "Low diastolic pressure".
+* [87] The category is "Physical Examination" for the finding "pulse 81 beats per minute on admission" and the explanation is "Normal heart rate".
+* [88] The category is "Physical Examination" for the finding "respirations 28 per minute on admission" and the explanation is "Tachypnea".
+* [89] The category is "Physical Examination" for the finding "oxygen saturation 78% on room air on admission" and the explanation is "Severe hypoxemia".
+* [90] The category is "Physical Examination" for the finding "oxygen saturation 91% with supplemental oxygen (6 L) by nasal cannula on admission" and the explanation is "Partial correction with low-flow oxygen".
+* [91] The category is "Physical Examination" for the finding "oxygen saturation 100% while breathing from a nonrebreather mask on admission" and the explanation is "Full correction with high-flow oxygen".
+* [92] The category is "Physical Examination" for the finding "crackles extended halfway up the lungs on admission" and the explanation is "Pulmonary congestion".
+* [93] The category is "Physical Examination" for the finding "occasional expiratory wheezes on admission" and the explanation is "Airway narrowing".
+* [94] The category is "Physical Examination" for the finding "remainder of the examination normal on admission" and the explanation is "No other abnormal findings".
+
+----- Abduction Phase (Unfocused) -----
+[2026-01-15 11:01:43]
+🧠 ABDUCTION (UNFOCUSED) — Diagnostic hypotheses generated:
+
+1. Interstitial lung disease (asbestosis‑related fibrosis)
+  Why: Progressive dyspnea, dry cough, weight loss, crackles and severe hypoxemia in a patient with significant asbestos exposure suggest a fibrotic interstitial process.
+  Supporting features:
+    - asbestos exposure — Occupational exposure in shipyard work
+    - progressive dyspnea over 6 months — Primary presenting symptom
+    - weight loss ~2.3 kg over 2 months — Unintentional weight loss
+    - chronic dry cough unchanged — Baseline respiratory symptom
+    - crackles extended halfway up the lungs — Pulmonary congestion
+    - oxygen saturation 78% on room air — Severe hypoxemia
+
+2. Pulmonary hypertension with right‑ventricular failure
+  Why: Elevated jugular venous pressure, dyspnea, tachypnea, hypotension and hypoxemia are compatible with right‑heart overload secondary to pulmonary vascular disease.
+  Supporting features:
+    - jugular venous pulse 14 cm above right atrium — Elevated JVP
+    - crackles extended halfway up the lungs — Pulmonary congestion
+    - progressive dyspnea over 6 months — Primary presenting symptom
+    - respirations 28 per minute — Tachypnea
+    - blood pressure 105/43 mmHg — Low diastolic pressure
+    - oxygen saturation 78% on room air — Severe hypoxemia
+
+3. Left‑sided congestive heart failure (pulmonary edema)
+  Why: Pulmonary crackles, elevated JVP, severe hypoxemia, low blood pressure and need for loop diuretics point toward left‑sided failure with secondary congestion.
+  Supporting features:
+    - jugular venous pulse 14 cm above right atrium — Elevated JVP
+    - crackles extended halfway up the lungs — Pulmonary congestion
+    - progressive dyspnea over 6 months — Primary presenting symptom
+    - blood pressure 105/43 mmHg — Low diastolic pressure
+    - furosemide — Loop diuretic
+    - oxygen saturation 78% on room air — Severe hypoxemia
+
+4. Chronic obstructive pulmonary disease (COPD) exacerbation
+  Why: A long‑standing heavy smoking history, chronic cough, wheezing, weight loss and severe hypoxemia are typical of an acute COPD flare.
+  Supporting features:
+    - former smoker — 3 packs per day for 50 years, quit 14 years ago
+    - chronic dry cough unchanged — Baseline respiratory symptom
+    - occasional expiratory wheezes — Airway obstruction
+    - weight loss ~2.3 kg over 2 months — Unintentional weight loss
+    - respirations 28 per minute — Tachypnea
+    - oxygen saturation 78% on room air — Severe hypoxemia
+
+5. Acute pulmonary embolism
+  Why: Sudden worsening of dyspnea together with tachypnea, severe hypoxemia, hypotension and elevated JVP are classic for a massive pulmonary embolus.
+  Supporting features:
+    - progressive dyspnea over 6 months — Primary presenting symptom
+    - respirations 28 per minute — Tachypnea
+    - oxygen saturation 78% on room air — Severe hypoxemia
+    - blood pressure 105/43 mmHg — Low diastolic pressure
+    - jugular venous pulse 14 cm above right atrium — Elevated JVP
+
+6. Primary lung malignancy
+  Why: Combined history of heavy smoking and asbestos exposure, together with progressive dyspnea, cough, weight loss and severe hypoxemia, raise suspicion for lung cancer.
+  Supporting features:
+    - asbestos exposure — Occupational exposure in shipyard work
+    - former smoker — 3 packs per day for 50 years, quit 14 years ago
+    - weight loss ~2.3 kg over 2 months — Unintentional weight loss
+    - progressive dyspnea over 6 months — Primary presenting symptom
+    - chronic dry cough unchanged — Baseline respiratory symptom
+    - oxygen saturation 78% on room air — Severe hypoxemia
+
+7. Pacemaker‑related cardiac dysfunction (pacemaker syndrome)
+  Why: Symptoms of low output (dyspnea, hypotension, elevated JVP) in a patient with a longstanding pacemaker and underlying complete heart block suggest pacemaker‑mediated hemodynamic compromise.
+  Supporting features:
+    - pacemaker insertion (6 years prior) — Management of complete heart block
+    - complete heart block — Cardiac conduction disorder
+    - blood pressure 105/43 mmHg — Low diastolic pressure
+    - jugular venous pulse 14 cm above right atrium — Elevated JVP
+    - progressive dyspnea over 6 months — Primary presenting symptom
+
+8. Beta‑blocker–induced bronchospasm
+  Why: Use of a non‑selective beta blocker (metoprolol) can precipitate airway obstruction manifested by wheezes, dyspnea and hypoxemia.
+  Supporting features:
+    - metoprolol — Beta blocker
+    - occasional expiratory wheezes — Airway obstruction
+    - respirations 28 per minute — Tachypnea
+    - oxygen saturation 78% on room air — Severe hypoxemia
+
+9. Volume overload/fluid retention secondary to renal dysfunction
+  Why: Decreased urine output, need for loop diuretics, elevated JVP, crackles and low blood pressure indicate fluid accumulation from impaired renal excretion.
+  Supporting features:
+    - decreased urine output — Systemic decomp
+    - furosemide — Loop diuretic
+    - blood pressure 105/43 mmHg — Low diastolic pressure
+    - jugular venous pulse 14 cm above right atrium — Elevated JVP
+    - crackles extended halfway up the lungs — Pulmonary congestion
+
+10. Multisystem decompensation / frailty
+  Why: The combination of somnolence, decreased appetite, reduced urine output, unsteady gait and recent weight loss reflects a generalized decline contributing to respiratory failure.
+  Supporting features:
+    - somnolence, decreased appetite, decreased urine output, unsteady gait in days before admission — Systemic decomp
+    - weight loss ~2.3 kg over 2 months — Unintentional weight loss
+
+11. Beta‑blocker‑induced bronchospasm
+  Why: Metoprolol therapy can provoke bronchoconstriction, leading to wheezing, dyspnea and hypoxemia in susceptible individuals.
+  Supporting features:
+    - metoprolol — Beta blocker
+    - occasional expiratory wheezes — Airway obstruction
+    - oxygen saturation 78% on room air — Severe hypoxemia
+    - respirations 28 per minute — Tachypnea
+
+----- Abduction Phase (Focused) -----
+[2026-01-15 11:03:44]
+🧠 ABDUCTION (FOCUSED) — Diagnostic hypotheses generated:
+
+1. Asbestosis with usual interstitial pneumonia pattern
+  Why: Fibrotic interstitial lung disease linked to documented asbestos exposure, progressive dyspnea, weight loss, dry cough, basal crackles and severe hypoxemia.
+  Supporting features:
+    - asbestos exposure — Occupational exposure in shipyard work
+    - progressive dyspnea over 6 months — Primary presenting symptom
+    - weight loss ~2.3 kg over 2 months — Unintentional weight loss
+    - chronic dry cough unchanged — Baseline respiratory symptom
+    - crackles extended halfway up lungs — Pulmonary congestion
+    - oxygen saturation 78% on room air — Severe hypoxemia
+
+2. Idiopathic pulmonary fibrosis (usual interstitial pneumonia)
+  Why: Progressive fibrotic lung disease without a known exposure that explains dyspnea, dry cough, weight loss, basal crackles and hypoxemia.
+  Supporting features:
+    - progressive dyspnea over 6 months — Primary presenting symptom
+    - chronic dry cough unchanged — Baseline respiratory symptom
+    - weight loss ~2.3 kg over 2 months — Unintentional weight loss
+    - crackles extended halfway up lungs — Pulmonary congestion
+    - oxygen saturation 78% on room air — Severe hypoxemia
+
+3. Pulmonary arterial hypertension secondary to interstitial lung disease
+  Why: Elevated right‑sided pressures manifested by high JVP, tachypnea, low diastolic pressure and severe hypoxemia in the setting of chronic interstitial lung disease.
+  Supporting features:
+    - jugular venous pulse 14 cm above right atrium — Elevated JVP
+    - progressive dyspnea over 6 months — Primary presenting symptom
+    - respirations 28 per minute — Tachypnea
+    - blood pressure 105/43 mmHg — Low diastolic pressure
+    - oxygen saturation 78% on room air — Severe hypoxemia
+
+4. Chronic thromboembolic pulmonary hypertension
+  Why: Obstructive pulmonary vascular disease causing right‑heart strain, elevated JVP, tachypnea, low diastolic pressure and hypoxemia, compatible with chronic progressive dyspnea.
+  Supporting features:
+    - jugular venous pulse 14 cm above right atrium — Elevated JVP
+    - progressive dyspnea over 6 months — Primary presenting symptom
+    - respirations 28 per minute — Tachypnea
+    - blood pressure 105/43 mmHg — Low diastolic pressure
+    - oxygen saturation 78% on room air — Severe hypoxemia
+
+5. Pacemaker syndrome with low cardiac output and pulmonary congestion
+  Why: Symptoms and signs of low output (hypotension, elevated JVP, dyspnea, crackles) occurring after chronic pacemaker implantation for complete heart block.
+  Supporting features:
+    - pacemaker insertion (6 years prior) — Management of complete heart block
+    - complete heart block — Cardiac conduction disorder
+    - blood pressure 105/43 mmHg — Low diastolic pressure
+    - jugular venous pulse 14 cm above right atrium — Elevated JVP
+    - progressive dyspnea over 6 months — Primary presenting symptom
+    - crackles extended halfway up lungs — Pulmonary congestion
+
+6. Metoprolol‑induced bronchospasm exacerbating chronic obstructive airway disease
+  Why: Beta‑blocker therapy precipitating airway obstruction manifested by wheezes, tachypnea and severe hypoxemia in a heavy former smoker.
+  Supporting features:
+    - metoprolol — Beta blocker
+    - occasional expiratory wheezes — Airway obstruction
+    - oxygen saturation 78% on room air — Severe hypoxemia
+    - respirations 28 per minute — Tachypnea
+
+7. Acute volume overload secondary to renal dysfunction
+  Why: Renal‑related fluid retention causing elevated JVP, pulmonary edema, hypotension and reduced urine output despite diuretic therapy.
+  Supporting features:
+    - decreased urine output — Systemic decomp
+    - furosemide — Loop diuretic
+    - blood pressure 105/43 mmHg — Low diastolic pressure
+    - jugular venous pulse 14 cm above right atrium — Elevated JVP
+    - crackles extended halfway up lungs — Pulmonary congestion
+
+8. Squamous cell carcinoma of the lung with mediastinal lymphadenopathy
+  Why: Primary lung malignancy compatible with heavy smoking, asbestos exposure, weight loss, progressive dyspnea, cough and severe hypoxemia.
+  Supporting features:
+    - asbestos exposure — Occupational exposure in shipyard work
+    - former smoker — 3 packs per day for 50 years, quit 14 years ago
+    - weight loss ~2.3 kg over 2 months — Unintentional weight loss
+    - progressive dyspnea over 6 months — Primary presenting symptom
+    - chronic dry cough unchanged — Baseline respiratory symptom
+    - oxygen saturation 78% on room air — Severe hypoxemia
+
+9. Massive pulmonary embolism causing right‑heart strain
+  Why: Acute obstructive event producing sudden hypoxemia, hypotension, elevated JVP and tachypnea in the context of chronic progressive dyspnea.
+  Supporting features:
+    - progressive dyspnea over 6 months — Primary presenting symptom
+    - respirations 28 per minute — Tachypnea
+    - oxygen saturation 78% on room air — Severe hypoxemia
+    - blood pressure 105/43 mmHg — Low diastolic pressure
+    - jugular venous pulse 14 cm above right atrium — Elevated JVP
+
+10. Frailty‑associated multisystem decompensation with delirium
+  Why: Advanced age‑related frailty manifesting as somnolence, decreased intake, oliguria, unsteady gait, weight loss and low blood pressure contributing to overall decompensation.
+  Supporting features:
+    - somnolence, decreased appetite, decreased urine output, unsteady gait in days before admission — Systemic decomp
+    - weight loss ~2.3 kg over 2 months — Unintentional weight loss
+    - progressive dyspnea over 6 months — Primary presenting symptom
+    - blood pressure 105/43 mmHg — Low diastolic pressure
+
+----- Ranking Phase -----
+[2026-01-15 11:04:50]
+🏁 RANKING — Hypotheses ordered by plausibility:
+
+#1 — Asbestosis with usual interstitial pneumonia pattern
+  Parsimony: Explains the progressive dyspnea, weight loss, dry cough, bilateral reticular opacities, pleural plaques, and calcifications with a single occupational exposure.
+  Danger: Delay in recognizing asbestosis may postpone palliative oxygen and advance care planning, leading to unnecessary invasive interventions.
+  Cost: Diagnosis relies on existing imaging; no additional high‑cost tests are required beyond routine CT review.
+  Curability: Disease is irreversible, but early recognition allows symptom‑directed therapy and avoidance of futile aggressive measures.
+
+#2 — Idiopathic pulmonary fibrosis (usual interstitial pneumonia)
+  Parsimony: Accounts for the same clinical and radiologic findings without invoking a specific exposure, offering a slightly less specific explanation.
+  Danger: If missed, the patient may receive unnecessary investigations for exposure‑related disease, delaying appropriate supportive care.
+  Cost: Similar imaging is sufficient; however, additional serologic or exposure work‑up may increase cost compared with H1.
+  Curability: Like asbestosis, it is incurable; early palliative measures improve quality of life.
+
+#3 — Pulmonary arterial hypertension secondary to interstitial lung disease
+  Parsimony: Adds a hemodynamic complication to the primary ILD, requiring an extra disease layer.
+  Danger: Right‑heart failure markedly increases short‑term mortality; early detection guides vasodilator therapy and transplant referral.
+  Cost: Requires echocardiography and possibly right‑heart catheterization, adding moderate expense.
+  Curability: Therapies can improve symptoms and survival but do not cure the underlying ILD; benefit is limited.
+
+#4 — Chronic thromboembolic pulmonary hypertension
+  Parsimony: Introduces an unrelated vascular disease to explain dyspnea and right‑heart strain, less parsimonious than ILD‑related PH.
+  Danger: If present, untreated disease can be fatal; however, probability is lower given lack of supporting imaging findings.
+  Cost: Requires ventilation‑perfusion scanning or pulmonary angiography, increasing diagnostic cost.
+  Curability: Potentially curable with pulmonary thromboendarterectomy, but unlikely in this patient’s age and comorbidities.
+
+#5 — Pacemaker syndrome with low cardiac output and pulmonary congestion
+  Parsimony: Attributes symptoms to a device complication despite appropriate pacing parameters and lack of typical signs (e.g., atrial‑ventricular dyssynchrony).
+  Danger: Missing true cardiac output failure could delay inotropic support, but overall risk is lower than untreated PH.
+  Cost: Would need device interrogation and possibly reprogramming; modest cost.
+  Curability: Often reversible with device adjustment, but does not address the dominant interstitial lung disease.
+
+#6 — Metoprolol‑induced bronchospasm exacerbating chronic obstructive airway disease
+  Parsimony: Adds a medication side‑effect to explain wheezes, yet the predominant picture is restrictive ILD, not COPD.
+  Danger: Bronchospasm can worsen hypoxemia, but is unlikely to be the primary driver of rapid decline.
+  Cost: Requires trial discontinuation and spirometry; low cost.
+  Curability: Reversible on drug withdrawal, but would not resolve the underlying fibrosis.
+
+#7 — Acute volume overload secondary to renal dysfunction
+  Parsimony: Provides a renal‑centric explanation for crackles and JVP, but does not account for chronic imaging changes.
+  Danger: Volume overload can precipitate heart failure; timely diuresis is important but does not change overall prognosis.
+  Cost: Routine labs and diuretic titration are inexpensive.
+  Curability: Fluid status can be corrected, yet underlying ILD remains incurable.
+
+#8 — Massive pulmonary embolism causing right‑heart strain
+  Parsimony: Proposes an acute event to explain chronic six‑month dyspnea, which is less parsimonious than a chronic interstitial process.
+  Danger: If present, it is immediately life‑threatening; however, imaging and clinical course make this unlikely.
+  Cost: CT pulmonary angiography or V/Q scan adds significant expense.
+  Curability: Potentially curable with thrombolysis/embolectomy, but probability in this case is low.
+
+#9 — Squamous cell carcinoma of the lung with mediastinal lymphadenopathy
+  Parsimony: Introduces a neoplastic mass to explain diffuse interstitial changes, which is inconsistent with imaging showing honeycombing rather than a solitary lesion.
+  Danger: Advanced cancer carries high mortality; however, lack of a dominant mass reduces immediate urgency.
+  Cost: Biopsy and PET imaging are high‑cost interventions.
+  Curability: Limited curative options at this stage; treatment would be palliative.
+
+#10 — Frailty‑associated multisystem decompensation with delirium
+  Parsimony: Broad, nonspecific syndrome that does not specifically explain the radiographic interstitial pattern.
+  Danger: Recognizing frailty is important for goals of care but does not direct acute life‑saving interventions.
+  Cost: No additional testing required; low cost.
+  Curability: Frailty is not curable; management focuses on supportive care.
+
+----- Deduction Phase -----
+[2026-01-15 11:06:39]
+🔮 DEDUCTION — Expected consequences per hypothesis:
+
+• Asbestosis with usual interstitial pneumonia pattern
+  - [🔴 HIGH | ⏳ clinical_course] History of occupational asbestos exposure (e.g., shipbuilding, insulation work) → present or discoverable in record.
+  - [🔴 HIGH | ⏳ clinical_course] Gradual progressive exertional dyspnea over years, often with chronic dry cough.
+  - [🔴 HIGH | 🧪 test_result] High‑resolution CT showing basal‑predominant honeycombing, reticulation, traction bronchiectasis and pleural plaques.
+  - [🔴 HIGH | 🧪 test_result] Pulmonary function tests: restrictive ventilatory defect with ↓FVC, ↓total lung capacity and markedly ↓DLCO.
+  - [🟠 MED | ⏳ clinical_course] Digital clubbing of the fingers.
+  - [🟠 MED | 🧪 test_result] Chest X‑ray: bilateral basal reticular opacities and thickened pleural lines.
+  - [🟢 LOW | 🧪 test_result] Absence of significant eosinophilia or peripheral blood abnormalities.
+
+• Idiopathic pulmonary fibrosis (usual interstitial pneumonia)
+  - [🔴 HIGH | ⏳ clinical_course] Progressive dyspnea on exertion and non‑productive cough over months.
+  - [🔴 HIGH | ⏳ clinical_course] Absence of identifiable exposure (no asbestos, no connective‑tissue disease).
+  - [🔴 HIGH | 🧪 test_result] HRCT with basal‑predominant honeycombing, reticulation, and traction bronchiectasis, without pleural plaques.
+  - [🔴 HIGH | 🧪 test_result] Restrictive pattern on PFTs with ↓FVC, ↓TLC and ↓DLCO.
+  - [🟠 MED | ⏳ clinical_course] Digital clubbing present in up to 50 % of cases.
+  - [🟢 LOW | ⏳ clinical_course] Acute exacerbations characterized by rapid worsening, new ground‑glass opacities on CT, and ↑LDH.
+  - [🟢 LOW | 🧪 test_result] Elevated serum KL‑6 or surfactant protein‑D (optional biomarker).
+
+• Pulmonary arterial hypertension secondary to interstitial lung disease
+  - [🔴 HIGH | ⏳ clinical_course] Exertional dyspnea out of proportion to the degree of parenchymal lung disease.
+  - [🔴 HIGH | 🧪 test_result] Echocardiogram showing elevated right‑ventricular systolic pressure (>40 mmHg) and right‑ventricular hypertrophy/dilation.
+  - [🔴 HIGH | 🧪 test_result] Right‑heart catheterization: mean pulmonary artery pressure ≥25 mmHg, pulmonary capillary wedge pressure ≤15 mmHg.
+  - [🔴 HIGH | 🧪 test_result] PFTs: restrictive defect with ↓DLCO disproportionately low compared with FVC.
+  - [🟠 MED | ⏳ clinical_course] Signs of right‑sided failure: jugular venous distension, peripheral edema, hepatomegaly.
+  - [🟠 MED | 🧪 test_result] BNP/NT‑proBNP modestly elevated reflecting RV strain.
+  - [🟢 LOW | 🧪 test_result] Absence of significant left‑sided heart disease on echocardiography.
+
+• Chronic thromboembolic pulmonary hypertension
+  - [🔴 HIGH | 🧪 test_result] Ventilation‑perfusion scan demonstrating multiple mismatched perfusion defects.
+  - [🔴 HIGH | 🧪 test_result] CT pulmonary angiography showing organized thrombus, webs, or band lesions in segmental/subsegmental arteries.
+  - [🔴 HIGH | 🧪 test_result] Echocardiogram with elevated RV systolic pressure and RV dilation, but normal left‑sided pressures.
+  - [🟠 MED | ⏳ clinical_course] Exercise limitation with exertional dyspnea and early fatigue.
+  - [🟠 MED | ⏳ clinical_course] Signs of right‑heart failure (elevated JVP, peripheral edema).
+  - [🟢 LOW | ⏳ clinical_course] Potential improvement in symptoms after anticoagulation or pulmonary endarterectomy.
+  - [🟢 LOW | 🧪 test_result] Normal or mildly reduced DLCO; PFTs may be near normal.
+
+• Pacemaker syndrome with low cardiac output and pulmonary congestion
+  - [🔴 HIGH | ⏳ clinical_course] Low cardiac output signs: hypotension, cool extremities, fatigue, reduced exercise tolerance.
+  - [🔴 HIGH | ⏳ clinical_course] Elevated jugular venous pressure and bibasilar crackles consistent with pulmonary congestion.
+  - [🔴 HIGH | ⏳ clinical_course] Improvement of symptoms after reprogramming to AV‑synchronous mode or upgrading to biventricular pacing.
+  - [🔴 HIGH | 🧪 test_result] Pacemaker interrogation revealing atrioventricular dyssynchrony or inappropriate pacing mode.
+  - [🟠 MED | 🧪 test_result] Chest X‑ray showing interstitial edema or mild pleural effusions.
+  - [🟠 MED | 🧪 test_result] BNP/NT‑proBNP elevation reflecting volume overload.
+  - [🟢 LOW | 🧪 test_result] Absence of acute coronary syndrome (normal troponin).
+
+• Metoprolol‑induced bronchospasm exacerbating chronic obstructive airway disease
+  - [🔴 HIGH | ⏳ clinical_course] Recent initiation or dose increase of a non‑selective β‑blocker preceding worsening dyspnea.
+  - [🔴 HIGH | ⏳ clinical_course] New or increased wheezing on auscultation, especially on expiration.
+  - [🔴 HIGH | ⏳ clinical_course] Rapid symptom improvement after discontinuation of metoprolol or switching to cardio‑selective β‑blocker.
+  - [🔴 HIGH | 🧪 test_result] Spirometry showing ↓FEV1 and ↓FEV1/FVC ratio with limited reversibility after bronchodilator.
+  - [🟠 MED | ⏳ clinical_course] Lack of significant improvement with systemic steroids alone.
+  - [🟢 LOW | ⏳ clinical_course] Possible mild tachycardia due to bronchospasm‑induced hypoxia.
+  - [🟢 LOW | 🧪 test_result] Absence of infectious markers (normal WBC, no fever).
+
+• Acute volume overload secondary to renal dysfunction
+  - [🔴 HIGH | ⏳ clinical_course] Weight gain >2 kg in a short period and peripheral edema (pitting edema of lower extremities).
+  - [🔴 HIGH | ⏳ clinical_course] Improvement in dyspnea and edema after intravenous loop diuretics.
+  - [🔴 HIGH | 🧪 test_result] Rising serum creatinine and BUN with reduced urine output over the past 24‑48 h.
+  - [🔴 HIGH | 🧪 test_result] Chest X‑ray showing pulmonary venous congestion, interstitial edema, or small pleural effusions.
+  - [🟠 MED | ⏳ clinical_course] Hypertension or widened pulse pressure due to fluid overload.
+  - [🟠 MED | 🧪 test_result] Elevated BNP or NT‑proBNP reflecting cardiac strain from volume overload.
+  - [🟢 LOW | 🧪 test_result] Absence of significant cardiac ischemia (normal troponin).
+
+• Massive pulmonary embolism causing right‑heart strain
+  - [🔴 HIGH | ⏳ clinical_course] Sudden onset pleuritic chest pain and severe dyspnea with tachypnea.
+  - [🔴 HIGH | ⏳ clinical_course] Hypotension (systolic <90 mmHg) or syncope indicating hemodynamic instability.
+  - [🔴 HIGH | ⏳ clinical_course] Rapid clinical improvement after systemic thrombolysis or catheter‑directed therapy.
+  - [🔴 HIGH | 🧪 test_result] CT pulmonary angiography demonstrating a large central embolus in the main pulmonary arteries.
+  - [🔴 HIGH | 🧪 test_result] Echocardiogram with right‑ventricular dilation, septal flattening (D‑sign), and elevated RV systolic pressure.
+  - [🟠 MED | 🧪 test_result] Elevated cardiac biomarkers (troponin I/T, BNP).
+  - [🟠 MED | 🧪 test_result] Very high D‑dimer level (>2 µg/mL FEU).
+
+• Squamous cell carcinoma of the lung with mediastinal lymphadenopathy
+  - [🔴 HIGH | ⏳ clinical_course] Cough, hemoptysis, and weight loss over weeks‑months.
+  - [🔴 HIGH | 🧪 test_result] Central hilar or perihilar mass on chest imaging, often cavitary.
+  - [🔴 HIGH | 🧪 test_result] Mediastinal and/or hilar lymphadenopathy on CT or PET‑CT.
+  - [🔴 HIGH | 🧪 test_result] Bronchoscopy with biopsy showing keratinization and intercellular bridges.
+  - [🟠 MED | ⏳ clinical_course] Obstructive pneumonitis or atelectasis distal to the tumor.
+  - [🟠 MED | 🧪 test_result] Possible hypercalcemia due to parathyroid hormone‑related peptide secretion.
+  - [🟢 LOW | 🧪 test_result] Elevated SCC antigen (optional tumor marker).
+
+• Frailty‑associated multisystem decompensation with delirium
+  - [🔴 HIGH | ⏳ clinical_course] Acute onset of fluctuating confusion, inattention, and disorganized thinking.
+  - [🔴 HIGH | ⏳ clinical_course] History of advanced age with baseline frailty (slow gait, weight loss, sarcopenia).
+  - [🔴 HIGH | ⏳ clinical_course] Potential precipitating factors: infection, dehydration, electrolyte imbalance, medication changes.
+  - [🔴 HIGH | ⏳ clinical_course] Improvement with supportive measures: reorientation, hydration, review of meds, treatment of underlying trigger.
+  - [🟠 MED | ⏳ clinical_course] Low albumin and sarcopenic body habitus on physical exam.
+  - [🟠 MED | 🧪 test_result] Laboratory abnormalities such as mild leukocytosis, hyponatremia or hypernatremia, elevated BUN/creatinine.
+  - [🟢 LOW | 🧪 test_result] Absence of focal neurologic deficits on exam or imaging.
+
+----- Induction Phase -----
+[2026-01-15 11:10:16]
+🧾 INDUCTION — Matching expected vs observed:
+
+• Asbestosis with usual interstitial pneumonia pattern
+  Evaluation: plausible
+  Termination: continue_testing
+  Why: continue_testing
+  Findings summary: ✅ 4 | ❓ 3 | ❌ 0
+  Findings:
+    - ✅ History of occupational asbestos exposure
+      ↳ Shipyard work with asbestos mentioned
+    - ✅ HRCT showing basal‑predominant honeycombing, reticulation, traction bronchiectasis and pleural plaques
+      ↳ CT described honeycomb changes, traction bronchiectasis, pleural calcifications
+    - ❓ Pulmonary function tests: restrictive defect with ↓FVC, ↓TLC, ↓DLCO
+      ↳ No PFT data provided
+    - ❓ Digital clubbing
+      ↳ Clubbing not mentioned
+    - ✅ Gradual progressive exertional dyspnea over years, chronic dry cough
+      ↳ Dyspnea progressive 6 months, chronic dry cough unchanged
+    - ✅ Chest X‑ray: bilateral basal reticular opacities and thickened pleural lines
+      ↳ CXR showed bilateral patchy opacities, later coarse reticular opacities and pleural plaques
+    - ❓ Absence of significant eosinophilia or peripheral blood abnormalities
+      ↳ No laboratory data on eosinophils
+
+• Idiopathic pulmonary fibrosis (usual interstitial pneumonia)
+  Evaluation: refuted
+  Termination: reopen_abduction
+  Why: reopen_abduction
+  Findings summary: ✅ 1 | ❓ 4 | ❌ 2
+  Findings:
+    - ❌ HRCT with honeycombing, reticulation, traction bronchiectasis without pleural plaques
+      ↳ Pleural plaques present on CT
+    - ❓ Restrictive pulmonary function tests
+      ↳ No PFT data
+    - ❓ Digital clubbing
+      ↳ Not mentioned
+    - ✅ Progressive dyspnea
+      ↳ Progressive dyspnea described
+    - ❌ Absence of identifiable exposure (e.g., asbestos)
+      ↳ Clear asbestos exposure history
+    - ❓ Elevated serum KL‑6
+      ↳ Not reported
+    - ❓ Acute exacerbations with rapid worsening, new ground‑glass opacities and ↑LDH
+      ↳ LDH not reported
+
+• Pulmonary arterial hypertension secondary to interstitial lung disease
+  Evaluation: plausible
+  Termination: continue_testing
+  Why: continue_testing
+  Findings summary: ✅ 3 | ❓ 4 | ❌ 0
+  Findings:
+    - ✅ Echocardiogram showing elevated RV systolic pressure and RV hypertrophy/dilation
+      ↳ Echo demonstrated markedly dilated, hypokinetic RV and pulmonary hypertension
+    - ❓ Right‑heart catheterization: mean PAP ≥ 25 mmHg, PCWP ≤ 15 mmHg
+      ↳ No cath data
+    - ❓ Exertional dyspnea out of proportion to parenchymal disease
+      ↳ Not specifically compared
+    - ✅ Signs of right‑sided heart failure (JVD, peripheral edema, hepatomegaly)
+      ↳ Elevated JVP noted; edema/hepatomegaly not mentioned
+    - ❓ Restrictive PFTs with DLCO disproportionately low
+      ↳ No PFT data
+    - ❓ BNP/NT‑proBNP modestly elevated
+      ↳ BNP not reported
+    - ✅ Absence of significant left‑sided heart disease on echocardiogram
+      ↳ Left ventricle with normal EF and no major disease
+
+• Chronic thromboembolic pulmonary hypertension
+  Evaluation: plausible
+  Termination: continue_testing
+  Why: continue_testing
+  Findings summary: ✅ 3 | ❓ 4 | ❌ 0
+  Findings:
+    - ❓ Ventilation‑perfusion scan showing mismatched perfusion defects
+      ↳ V/Q scan not performed
+    - ❓ CT pulmonary angiography demonstrating organized thrombus
+      ↳ CTPA not performed
+    - ✅ Echocardiogram with elevated RV pressure, RV dilation, normal left heart
+      ↳ Echo findings compatible
+    - ✅ Exercise limitation and exertional dyspnea
+      ↳ Severe dyspnea on exertion
+    - ✅ Signs of right‑heart failure (JVD, peripheral edema)
+      ↳ Elevated JVP; peripheral edema not mentioned
+    - ❓ Normal or mildly reduced DLCO; PFTs near normal
+      ↳ No PFT data
+    - ❓ Clinical improvement after anticoagulation or pulmonary endarterectomy
+      ↳ No therapeutic trial reported
+
+• Pacemaker syndrome with low cardiac output and pulmonary congestion
+  Evaluation: plausible
+  Termination: continue_testing
+  Why: continue_testing
+  Findings summary: ✅ 3 | ❓ 4 | ❌ 0
+  Findings:
+    - ❓ Pacemaker interrogation revealing AV dyssynchrony
+      ↳ No interrogation data
+    - ❓ Low cardiac output signs (hypotension, cool extremities, fatigue)
+      ↳ BP modestly low; fatigue not specifically described
+    - ✅ Elevated JVP and bibasilar crackles
+      ↳ JVP 14 cm, crackles present
+    - ✅ Chest X‑ray showing interstitial edema or mild pleural effusions
+      ↳ CXR described possible small pleural effusions and opacities
+    - ❓ Improvement after pacemaker re‑programming
+      ↳ No re‑programming attempted
+    - ❓ BNP elevation
+      ↳ BNP not reported
+    - ✅ Absence of acute coronary syndrome (normal troponin)
+      ↳ Serial cardiac biomarkers negative for MI
+
+• Metoprolol‑induced bronchospasm exacerbating chronic obstructive airway disease
+  Evaluation: refuted
+  Termination: reopen_abduction
+  Why: reopen_abduction
+  Findings summary: ✅ 1 | ❓ 5 | ❌ 1
+  Findings:
+    - ❌ Recent initiation or dose increase of non‑selective β‑blocker preceding worsening
+      ↳ Metoprolol is β1‑selective and no recent change reported
+    - ✅ New or increased wheezing especially on expiration
+      ↳ Occasional expiratory wheezes noted
+    - ❓ Spirometry showing ↓FEV1/FVC ratio and bronchodilator reversibility
+      ↳ Spirometry not performed
+    - ❓ Lack of significant improvement with systemic steroids
+      ↳ Steroid response not clearly documented
+    - ❓ Rapid improvement after β‑blocker discontinuation
+      ↳ No discontinuation trial
+    - ❓ Absence of infectious markers (normal WBC, afebrile)
+      ↳ No WBC or fever data
+    - ❓ Possible mild tachycardia due to bronchospasm‑induced hypoxia
+      ↳ Pulse 81, not tachycardic
+
+• Acute volume overload secondary to renal dysfunction
+  Evaluation: refuted
+  Termination: reopen_abduction
+  Why: reopen_abduction
+  Findings summary: ✅ 1 | ❓ 4 | ❌ 2
+  Findings:
+    - ❓ Rising serum creatinine and BUN with reduced urine output
+      ↳ Renal labs not provided
+    - ❌ Weight gain >2 kg in short period and peripheral edema
+      ↳ Patient lost 2.3 kg and no edema reported
+    - ❓ Chest X‑ray showing pulmonary venous congestion, interstitial edema, small pleural effusions
+      ↳ Findings ambiguous; pleural effusions present but congestion not specified
+    - ❓ Elevated BNP
+      ↳ BNP not reported
+    - ❌ Hypertension or widened pulse pressure
+      ↳ Blood pressure low (105/43)
+    - ❓ Improvement after diuretic therapy
+      ↳ Partial radiographic improvement but clinical status unchanged
+    - ✅ Absence of cardiac ischemia
+      ↳ No myocardial infarction evidence
+
+• Massive pulmonary embolism causing right‑heart strain
+  Evaluation: refuted
+  Termination: reopen_abduction
+  Why: reopen_abduction
+  Findings summary: ✅ 2 | ❓ 3 | ❌ 2
+  Findings:
+    - ❌ Sudden onset pleuritic chest pain and severe dyspnea with tachypnea
+      ↳ Dyspnea progressive over months; no pleuritic chest pain
+    - ✅ Hypotension or syncope
+      ↳ Syncopal episode with SBP 60 mmHg reported
+    - ❓ CT pulmonary angiography showing large central embolus
+      ↳ CTA not performed
+    - ✅ Echocardiogram with RV dilation, septal flattening
+      ↳ Echo findings compatible
+    - ❌ Elevated cardiac biomarkers (troponin, BNP)
+      ↳ Serial cardiac biomarkers negative for MI; BNP not reported
+    - ❓ Evidence of right‑ventricular strain on ECG (e.g., S1Q3T3)
+      ↳ ECG described paced rhythm only
+    - ❓ Rapid clinical deterioration without alternative explanation
+      ↳ Deterioration present but alternative explanations exist
+
+• Squamous cell carcinoma of the lung with mediastinal lymphadenopathy
+  Evaluation: refuted
+  Termination: reopen_abduction
+  Why: reopen_abduction
+  Findings summary: ✅ 2 | ❓ 4 | ❌ 1
+  Findings:
+    - ❌ Central hilar mass on imaging
+      ↳ CT described cystic changes and honeycombing; no mass
+    - ✅ Cough, hemoptysis, weight loss
+      ↳ Chronic dry cough and weight loss present; no hemoptysis
+    - ✅ Mediastinal/hilar lymphadenopathy
+      ↳ Lymph nodes 1.5–2.3 cm noted
+    - ❓ Hypercalcemia
+      ↳ Calcium level not reported
+    - ❓ Bronchoscopy with tissue biopsy confirming carcinoma
+      ↳ No bronchoscopy performed
+    - ❓ Obstructive pneumonitis/atelectasis
+      ↳ Not described
+    - ❓ Elevated serum squamous cell carcinoma antigen
+      ↳ Not reported
+
+• Frailty‑associated multisystem decompensation with delirium
+  Evaluation: plausible
+  Termination: continue_testing
+  Why: continue_testing
+  Findings summary: ✅ 3 | ❓ 4 | ❌ 0
+  Findings:
+    - ✅ Acute onset fluctuating confusion, inattention, or altered consciousness
+      ↳ Patient somnolent, less interactive, likely delirious
+    - ✅ History of advanced age with baseline frailty
+      ↳ Age 89 with weight loss, sarcopenic appearance
+    - ❓ Potential precipitating factors (infection, dehydration, electrolyte imbalance, medication changes)
+      ↳ No infection; dehydration suggested by decreased urine output but not documented; medication changes not reported
+    - ❓ Laboratory abnormalities (mild leukocytosis, hyponatremia, elevated BUN/creatinine)
+      ↳ Lab values not provided
+    - ❓ Low serum albumin and sarcopenic body habitus
+      ↳ Not reported
+    - ❓ Improvement with supportive measures (fluid balance, reorientation, medication review)
+      ↳ Patient deteriorated despite interventions
+    - ✅ Absence of focal neurologic deficits
+      ↳ No focal deficits mentioned
+
+----- Ranking Phase -----
+[2026-01-15 11:11:27]
+🏁 RANKING — Hypotheses ordered by plausibility:
+
+#1 — Asbestosis with usual interstitial pneumonia pattern
+  Parsimony: Explains dyspnea, imaging findings (basal honeycombing, pleural plaques) and occupational exposure with a single disease process.
+  Danger: Progressive fibrotic lung disease can lead to respiratory failure and right‑heart strain, as occurred.
+  Cost: Diagnosis relies on existing imaging and exposure history; no invasive testing required.
+  Curability: Disease is not curable, but early recognition can guide supportive care and avoid unnecessary interventions.
+
+#2 — Pulmonary arterial hypertension secondary to interstitial lung disease
+  Parsimony: Adds a second pathological process (vascular) to explain right‑heart findings beyond the interstitial disease alone.
+  Danger: Pulmonary hypertension accelerates decompensation and carries high mortality if untreated.
+  Cost: Confirmatory testing (right‑heart catheterisation) is invasive and expensive.
+  Curability: Therapies can improve haemodynamics but do not cure the underlying ILD; benefit is limited.
+
+#3 — Pacemaker syndrome with low cardiac output and pulmonary congestion
+  Parsimony: Accounts for elevated JVP, crackles, and low‑output signs with a single device‑related mechanism.
+  Danger: Low cardiac output can precipitate hypotension and organ hypoperfusion, contributing to rapid decline.
+  Cost: Requires pacemaker interrogation and possible re‑programming, modest in cost.
+  Curability: Re‑programming or lead revision can quickly reverse the syndrome, offering a curative fix.
+
+#4 — Frailty‑associated multisystem decompensation with delirium
+  Parsimony: Links age‑related frailty, weight loss, and delirium into a single systemic decline without invoking additional organ‑specific disease.
+  Danger: Delirium and frailty markedly increase risk of mortality and impede recovery.
+  Cost: Assessment is bedside; interventions are low‑cost (reorientation, fluid management).
+  Curability: Some improvement possible with supportive measures, but overall prognosis remains poor in advanced frailty.
+
+#5 — Chronic thromboembolic pulmonary hypertension
+  Parsimony: Adds a chronic vascular obstruction to explain right‑heart strain, but requires an additional pathology beyond ILD.
+  Danger: If present, can cause severe pulmonary hypertension and right‑heart failure.
+  Cost: Diagnosis needs V/Q scan or CTPA and possibly pulmonary angiography, which are costly.
+  Curability: Surgical endarterectomy can be curative, but feasibility in this elderly, frail patient is limited.
+
+#6 — Idiopathic pulmonary fibrosis (usual interstitial pneumonia)
+  Parsimony: Provides a single cause for the interstitial pattern but ignores the clear asbestos exposure and pleural plaques.
+  Danger: IPF also carries high mortality, yet the exposure history makes it less likely.
+  Cost: Similar imaging and possible lung biopsy; moderate cost.
+  Curability: No cure; antifibrotic therapy may slow progression, similar to asbestosis.
+
+#7 — Metoprolol‑induced bronchospasm exacerbating chronic obstructive airway disease
+  Parsimony: Requires a drug effect on top of existing lung disease, adding complexity.
+  Danger: Bronchospasm can worsen hypoxia, but the patient’s wheezing was mild and β1‑selective metoprolol makes this unlikely.
+  Cost: Would need bronchodilator testing or drug withdrawal trial; low cost.
+  Curability: Discontinuation could reverse symptoms, but evidence for causation is weak.
+
+#8 — Acute volume overload secondary to renal dysfunction
+  Parsimony: Introduces renal failure as an additional cause of pulmonary edema, not supported by weight loss or edema.
+  Danger: Volume overload can precipitate heart failure, yet clinical data do not support it here.
+  Cost: Requires renal labs and possibly ultrasound; modest cost.
+  Curability: Diuresis can improve overload, but underlying renal dysfunction would remain.
+
+#9 — Massive pulmonary embolism causing right‑heart strain
+  Parsimony: Posits an acute embolic event on top of chronic disease, increasing complexity.
+  Danger: Massive PE is life‑threatening, but the chronic course and lack of classic acute signs argue against it.
+  Cost: CT pulmonary angiography or V/Q scan is expensive and was not performed.
+  Curability: Thrombolysis or embolectomy can be curative, yet unlikely given presentation.
+
+#10 — Squamous cell carcinoma of the lung with mediastinal lymphadenopathy
+  Parsimony: Requires a malignant mass to explain imaging, yet CT shows diffuse fibrotic changes without a dominant lesion.
+  Danger: Lung cancer is serious, but the imaging pattern and exposure history favor fibrotic disease.
+  Cost: Diagnosis needs bronchoscopy, biopsy, PET‑CT; high cost.
+  Curability: Advanced stage in an 89‑year‑old would have limited curative options.

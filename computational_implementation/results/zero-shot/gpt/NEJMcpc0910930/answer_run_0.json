@@ -1,0 +1,44 @@
+{
+    "diagnoses": [
+        {
+            "diagnosis": "**Asbestosis\u2011related progressive pulmonary fibrosis (interstitial lung disease)**",
+            "explanation": "The patient had a long, heavy occupational exposure to asbestos (shipyard work) and classic radiographic findings \u2013 bilateral coarse reticular opacities, basal predominance, honey\u2011comb change, traction bronchiectasis, septal thickening, and calcified pleural plaques on the diaphragm.  The clinical picture of a slow, insidious loss of exercise tolerance over 6\u202fmonths, a dry chronic cough, unintentional weight loss, and eventual hypoxemic respiratory failure is typical for an asbestos\u2011induced fibrotic lung disease.  The CT pattern of \u201cusual interstitial pneumonia\u201d (UIP) is indistinguishable from idiopathic pulmonary fibrosis but the exposure history makes asbestosis the most plausible etiology.  Autopsy (performed) most often confirms dense fibrosis with asbestos bodies, which would have been the expected finding."
+        },
+        {
+            "diagnosis": "**Acute exacerbation of chronic interstitial fibrosis (asbestosis\u2011related UIP)**",
+            "explanation": "After a period of relatively stable disease the patient\u2019s dyspnea worsened dramatically over a few days, with rapid desaturation, new ground\u2011glass opacities on CT, and a clinical course resembling acute respiratory distress syndrome.  Acute exacerbations are known complications of UIP patterns (both idiopathic and asbestos\u2011related) and are precipitated by infection, micro\u2011aspiration, or unknown triggers.  The abrupt rise in oxygen requirements, lack of fever, and absence of a clear infectious source fit this entity."
+        },
+        {
+            "diagnosis": "**Pulmonary hypertension secondary to chronic lung disease (Group\u202f3 PH) with cor pulmonale**",
+            "explanation": "Echocardiography showed a markedly dilated, hypokinetic right ventr\u202fwith moderate\u2011to\u2011severe tricuspid regurgitation, elevated estimated pulmonary artery pressures, and septal flattening\u2014classic for pressure overload.  In advanced fibrotic lung disease, loss of capillary bed and hypoxic vasoconstriction produce progressive pulmonary vascular remodeling, leading to PH and right\u2011heart failure.  The syncopal episode with transient hypotension is compatible with a low\u2011output state due to RV failure."
+        },
+        {
+            "diagnosis": "**Right\u2011ventricular failure secondary to pacemaker\u2011lead\u2011induced tricuspid regurgitation**",
+            "explanation": "The dual\u2011chamber pacemaker leads traverse the tricuspid valve.  Chronic mechanical irritation can cause leaflet tethering, annular dilation, and regurgitation, which in turn produces right\u2011ventricular volume overload, dilation and dysfunction.  The echo described moderate\u2011to\u2011severe tricuspid regurgitation and a dilated RV; the timing (pacemaker placed 6\u202fyears earlier) makes this a plausible contributory factor that exacerbated the cor\u2011pulmonale picture.  This diagnosis is placed after the primary fibrotic lung disease because the valve lesion alone would not explain the extensive interstitial changes."
+        },
+        {
+            "diagnosis": "**Superimposed bacterial pneumonia (tracheobronchitis) on chronic interstitial disease**",
+            "explanation": "The patient developed new crackles extending higher in the lungs, an increase in diffuse ground\u2011glass attenuation, leukocytosis (if present on labs) and required broad\u2011spectrum antibiotics.  In patients with underlying UIP, infection can precipitate rapid decompensation and mimic an acute exacerbation.  The absence of fever does not exclude infection in the elderly or in those receiving steroids and diuretics.  Pneumonia is a common terminal event in end\u2011stage fibrotic lung disease."
+        },
+        {
+            "diagnosis": "**Acute pulmonary embolism (PE) with right\u2011heart strain**",
+            "explanation": "Sudden worsening of dyspnea, syncope, hypotension, and rapid desaturation are classic for high\u2011risk PE.  The patient had several risk factors: advanced age, recent immobilisation (hospitalisation), possible pro\u2011thrombotic state from malignancy (asbestos\u2011related cancers) and chronic inflammation.  The CT described enlarged mediastinal nodes but no obvious emboli; however, small subsegmental emboli can be missed, and PE can coexist with interstitial disease.  PE is placed lower because imaging did not show emboli and the clinical picture was dominated by progressive fibrosis."
+        },
+        {
+            "diagnosis": "**Left\u2011sided heart failure with preserved ejection fraction (HFpEF) contributing to pulmonary congestion**",
+            "explanation": "The patient had longstanding hypertension, coronary artery disease, diabetes, and concentric LV hypertrophy on echo, all risk factors for HFpEF.  An elevated jugular venous pressure, bibasal crackles, and need for diuretics are also compatible with left\u2011sided filling pressures.  However, the normal EF (\u224854\u202f%), absence of significant left\u2011sided volume overload on imaging, and the predominance of restrictive lung changes make HFpEF a secondary rather than primary cause of his respiratory failure."
+        },
+        {
+            "diagnosis": "**Malignant pleural mesothelioma (or asbestos\u2011related lung cancer)**",
+            "explanation": "Calcified pleural plaques and a long latency after asbestos exposure raise the possibility of mesothelioma or bronchogenic carcinoma.  Both can present with progressive dyspnea, weight loss, and pleural effusions.  The CT did not describe a dominant pleural mass, but early mesothelioma can be occult.  This diagnosis is listed because it would alter prognosis and may have contributed to the rapid decline, but the imaging and autopsy findings (if disclosed) likely favored diffuse fibrosis rather than a focal tumour."
+        },
+        {
+            "diagnosis": "**Acute on chronic renal insufficiency with volume overload leading to pulmonary edema**",
+            "explanation": "The patient was on multiple nephrotoxic drugs (cimetidine, NSAID\u2011type aspirin, ACE\u2011inhibitor) and had diabetes, all predisposing to chronic kidney disease.  Rising BUN/creatinine (if present in Table\u202f1) and reduced urine output reported by family suggest worsening renal function, which could cause fluid retention, elevated JVP, and crackles.  Diuretics provided only temporary improvement, supporting that volume overload was a component but not the sole driver of his hypoxemia."
+        },
+        {
+            "diagnosis": "**Medication\u2011induced respiratory depression (beta\u2011blocker, ACE\u2011inhibitor, or high\u2011dose opioids) exacerbating hypoxemia**",
+            "explanation": "The regimen included metoprolol, captopril, and later morphine for dyspnea.  In an elderly, frail patient with borderline ventilation reserve, these drugs can blunt the hypoxic ventilatory response, worsen CO\u2082 retention, and precipitate respiratory failure, especially when combined with an interstitial lung disease.  This factor is placed last because it would be an aggravating, not primary, cause."
+        }
+    ]
+}

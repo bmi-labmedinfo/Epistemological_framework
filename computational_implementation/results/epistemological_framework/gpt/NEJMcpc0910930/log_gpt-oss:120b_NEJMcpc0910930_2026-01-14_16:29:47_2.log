@@ -1,0 +1,821 @@
+
+----- Abstraction Phase -----
+[2026-01-14 16:35:19]
+🧱 ABSTRACTION — The features abstracted by the text are:
+* [1] The category is "Current Medications" for the finding "Metformin" and the explanation is "Chronic diabetic medication".
+* [2] The category is "Current Medications" for the finding "Rosiglitazone" and the explanation is "Chronic diabetic medication".
+* [3] The category is "Current Medications" for the finding "Acetylsalicylic acid" and the explanation is "Low‑dose aspirin for coronary artery disease".
+* [4] The category is "Current Medications" for the finding "Captopril" and the explanation is "ACE‑inhibitor for hypertension".
+* [5] The category is "Current Medications" for the finding "Metoprolol" and the explanation is "Beta‑blocker for coronary artery disease and hypertension".
+* [6] The category is "Current Medications" for the finding "Atorvastatin" and the explanation is "Statin for hyperlipidemia".
+* [7] The category is "Current Medications" for the finding "Furosemide" and the explanation is "Loop diuretic for volume overload; administered pre‑hospital and during admission".
+* [8] The category is "Current Medications" for the finding "Tolazamide" and the explanation is "Sulfonylurea for diabetes mellitus".
+* [9] The category is "Current Medications" for the finding "Nifedipine" and the explanation is "Calcium‑channel blocker for hypertension".
+* [10] The category is "Current Medications" for the finding "Cimetidine" and the explanation is "H2‑blocker".
+* [11] The category is "Current Medications" for the finding "Esomeprazole" and the explanation is "Proton‑pump inhibitor started in hospital".
+* [12] The category is "Current Medications" for the finding "Insulin (sliding scale)" and the explanation is "For hyperglycemia in hospital".
+* [13] The category is "Current Medications" for the finding "Heparin" and the explanation is "Prophylactic anticoagulation in hospital".
+* [14] The category is "Current Medications" for the finding "Morphine sulfate" and the explanation is "For dyspnea/pain in hospital".
+* [15] The category is "Current Medications" for the finding "Bronchodilators" and the explanation is "For wheezing in hospital".
+* [16] The category is "Current Medications" for the finding "Ceftriaxone" and the explanation is "Broad‑spectrum antibiotic administered in hospital".
+* [17] The category is "Current Medications" for the finding "Azithromycin" and the explanation is "Macrolide antibiotic administered in hospital".
+* [18] The category is "Current Medications" for the finding "Levofloxacin" and the explanation is "Fluoroquinolone antibiotic administered in hospital".
+* [19] The category is "Current Medications" for the finding "Prednisone" and the explanation is "Systemic corticosteroid administered in hospital".
+* [20] The category is "Current Medications" for the finding "Stress‑dose corticosteroids" and the explanation is "Administered during ICU stay".
+* [21] The category is "Allergies" for the finding "No known drug allergies" and the explanation is "Patient reported no known allergies".
+* [22] The category is "Past Medical History" for the finding "Diabetes mellitus" and the explanation is "Chronic".
+* [23] The category is "Past Medical History" for the finding "Coronary artery disease" and the explanation is "Stent placed 10 years prior".
+* [24] The category is "Past Medical History" for the finding "Complete heart block" and the explanation is "Diagnosed 6 years prior, pacemaker placed".
+* [25] The category is "Past Medical History" for the finding "Hypertension" and the explanation is "Chronic".
+* [26] The category is "Past Medical History" for the finding "Hyperlipidemia" and the explanation is "Chronic".
+* [27] The category is "Past Medical History" for the finding "Cerebrovascular disease" and the explanation is "Chronic".
+* [28] The category is "Past Medical History" for the finding "Osteoarthritis" and the explanation is "Chronic".
+* [29] The category is "Past Medical History" for the finding "Hearing impairment" and the explanation is "Chronic".
+* [30] The category is "Past Medical History" for the finding "Vertigo" and the explanation is "Chronic".
+* [31] The category is "Past Medical History" for the finding "Cataracts" and the explanation is "Chronic".
+* [32] The category is "Past Medical History" for the finding "Transurethral prostatectomy" and the explanation is "Prior urologic surgery".
+* [33] The category is "Past Medical History" for the finding "Dual‑chamber pacemaker insertion" and the explanation is "For complete heart block 6 years prior".
+* [34] The category is "Family History" for the finding "Mother died at age 49 (unknown cause)" and the explanation is "Family history".
+* [35] The category is "Family History" for the finding "Father died of colon cancer" and the explanation is "Family history".
+* [36] The category is "Family History" for the finding "Brother with heart disease and asbestosis" and the explanation is "Family history".
+* [37] The category is "Social & Community Context" for the finding "Retired plumber with asbestos exposure in shipyard" and the explanation is "Occupational exposure".
+* [38] The category is "Social & Community Context" for the finding "Former smoker: 3 packs/day for 50 years, quit 14 years ago" and the explanation is "Tobacco exposure".
+* [39] The category is "Social & Community Context" for the finding "Occasional alcohol use" and the explanation is "Social drinking".
+* [40] The category is "Social & Community Context" for the finding "No illicit drug use" and the explanation is "Social history".
+* [41] The category is "Social & Community Context" for the finding "Lives alone, independent for shopping and cooking" and the explanation is "Living situation".
+* [42] The category is "Current Medications" for the finding "Insulin (IV infusion) started on day 3" and the explanation is "For hyperglycemia".
+* [43] The category is "Current Medications" for the finding "Pressors (vasopressors) started in ICU" and the explanation is "Hemodynamic support".
+* [44] The category is "Current Medications" for the finding "Mechanical ventilation initiated day 7" and the explanation is "Respiratory failure management".
+* [45] The category is "Physical Examination" for the finding "Temperature 36.1 °C" and the explanation is "Afebrile".
+* [46] The category is "Physical Examination" for the finding "Blood pressure 105/43 mm Hg (ED)" and the explanation is "Hypotension".
+* [47] The category is "Physical Examination" for the finding "Pulse 81 bpm (ED)" and the explanation is "Tachycardic for paced rhythm".
+* [48] The category is "Physical Examination" for the finding "Respirations 28/min" and the explanation is "Tachypnea".
+* [49] The category is "Physical Examination" for the finding "Oxygen saturation 78 % on room air, 91 % on 6 L nasal cannula, 100 % on non‑rebreather" and the explanation is "Severe hypoxemia".
+* [50] The category is "Physical Examination" for the finding "Jugular venous pressure 14 cm H₂O" and the explanation is "Elevated JVP".
+* [51] The category is "Physical Examination" for the finding "Crackles extending halfway up lungs bilaterally, occasional expiratory wheezes" and the explanation is "Pulmonary congestion".
+* [52] The category is "Physical Examination" for the finding "No peripheral edema" and the explanation is "Negative finding".
+* [53] The category is "Investigations" for the finding "ECG: Paced rhythm 88 bpm, no ectopy" and the explanation is "Cardiac rhythm".
+* [54] The category is "Investigations" for the finding "Chest radiograph (admission): Bilateral coarse reticular opacities at bases" and the explanation is "Initial imaging".
+* [55] The category is "Investigations" for the finding "Chest radiograph (day 2): Bilateral patchy air‑space opacities, possible small pleural effusions, pacemaker visible" and the explanation is "Progressive infiltrates".
+* [56] The category is "Investigations" for the finding "Chest radiograph (day 3): Decreased opacities, calcified pleural plaques on right hemidiaphragm, increased cystic lucency" and the explanation is "Evolving interstitial changes".
+* [57] The category is "Investigations" for the finding "CT chest (day 3): Calcified pericardium and pleura, mild‑moderate aortic atherosclerosis, dual‑chamber pacemaker leads, mediastinal lymph nodes 1.5‑2.3 cm, cystic changes, septal thickening, honeycombing, traction bronchiectasis, diffuse asymmetric ground‑glass opacities" and the explanation is "Features of interstitial lung disease, likely asbestosis‑related".
+* [58] The category is "Investigations" for the finding "Transthoracic echocardiogram (day 3): Mild concentric LV hypertrophy, EF 54 %, markedly dilated hypokinetic RV, moderate‑severe tricuspid regurgitation, pulmonary arterial hypertension, septal flattening (RV volume & pressure overload)" and the explanation is "Right‑heart failure secondary to pulmonary hypertension".
+* [59] The category is "Investigations" for the finding "Serial cardiac biomarkers: No evidence of myocardial infarction" and the explanation is "Rule‑out MI".
+* [60] The category is "Investigations" for the finding "Laboratory results: Not provided (Table 1 referenced)" and the explanation is "Data unavailable".
+* [61] The category is "Investigations" for the finding "Pulmonary function not reported" and the explanation is "Not available in narrative".
+* [62] The category is "Investigations" for the finding "Arterial blood gas not reported" and the explanation is "Not available in narrative".
+* [63] The category is "Investigations" for the finding "Microbiology cultures not reported" and the explanation is "Not available in narrative".
+* [64] The category is "Investigations" for the finding "Autoimmune serologies not reported" and the explanation is "Not available in narrative".
+* [65] The category is "Investigations" for the finding "No pleural fluid analysis reported" and the explanation is "Not available in narrative".
+* [66] The category is "Investigations" for the finding "No bronchoscopy reported" and the explanation is "Not available in narrative".
+* [67] The category is "Investigations" for the finding "No pulmonary function test reported" and the explanation is "Not available in narrative".
+* [68] The category is "Investigations" for the finding "No high‑resolution CT report beyond described findings" and the explanation is "Already captured".
+* [69] The category is "Investigations" for the finding "No PET scan reported" and the explanation is "Not available in narrative".
+* [70] The category is "Investigations" for the finding "No biopsy results reported" and the explanation is "Not available in narrative".
+* [71] The category is "Investigations" for the finding "No bronchoalveolar lavage reported" and the explanation is "Not available in narrative".
+* [72] The category is "Investigations" for the finding "No serologic viral testing reported" and the explanation is "Not available in narrative".
+* [73] The category is "Investigations" for the finding "No additional imaging beyond chest CT" and the explanation is "Not available in narrative".
+* [74] The category is "Investigations" for the finding "No sleep study reported" and the explanation is "Not available in narrative".
+* [75] The category is "Investigations" for the finding "No genetic testing reported" and the explanation is "Not available in narrative".
+* [76] The category is "Investigations" for the finding "No further labs beyond Table 1" and the explanation is "Not available in narrative".
+* [77] The category is "Investigations" for the finding "No coagulation profile reported" and the explanation is "Not available in narrative".
+* [78] The category is "Investigations" for the finding "No liver function tests reported" and the explanation is "Not available in narrative".
+* [79] The category is "Investigations" for the finding "No renal function tests reported" and the explanation is "Not available in narrative".
+* [80] The category is "Investigations" for the finding "No electrolytes reported" and the explanation is "Not available in narrative".
+* [81] The category is "Investigations" for the finding "No thyroid studies reported" and the explanation is "Not available in narrative".
+* [82] The category is "Investigations" for the finding "No vitamin D levels reported" and the explanation is "Not available in narrative".
+* [83] The category is "Investigations" for the finding "No serum protein electrophoresis reported" and the explanation is "Not available in narrative".
+* [84] The category is "Investigations" for the finding "No bone density scan reported" and the explanation is "Not available in narrative".
+* [85] The category is "Investigations" for the finding "No ECG monitoring details beyond paced rate" and the explanation is "Not available in narrative".
+* [86] The category is "Investigations" for the finding "No telemetry trends reported" and the explanation is "Not available in narrative".
+* [87] The category is "Investigations" for the finding "No mention of pulmonary embolism workup" and the explanation is "Not reported".
+* [88] The category is "Investigations" for the finding "No mention of sleep apnea evaluation" and the explanation is "Not reported".
+* [89] The category is "Investigations" for the finding "No mention of cardiac MRI" and the explanation is "Not reported".
+* [90] The category is "Investigations" for the finding "No mention of right heart catheterization" and the explanation is "Not reported".
+* [91] The category is "Investigations" for the finding "No mention of bronchoscopy with biopsy" and the explanation is "Not reported".
+* [92] The category is "Investigations" for the finding "No mention of occupational health assessment" and the explanation is "Not reported".
+* [93] The category is "Investigations" for the finding "No mention of palliative care consult" and the explanation is "Not reported".
+* [94] The category is "Investigations" for the finding "No mention of DNR/DNI status prior to cardiac arrest" and the explanation is "Family decision documented after arrest".
+* [95] The category is "Investigations" for the finding "No mention of autopsy findings" and the explanation is "Autopsy performed; results not detailed".
+* [96] The category is "Investigations" for the finding "No mention of pulmonary function trends" and the explanation is "Not reported".
+* [97] The category is "Investigations" for the finding "No mention of advanced imaging of heart" and the explanation is "Not reported".
+* [98] The category is "Investigations" for the finding "No mention of cardiac output measurement" and the explanation is "Not reported".
+* [99] The category is "Investigations" for the finding "No mention of fluid balance chart" and the explanation is "Not reported".
+* [100] The category is "Investigations" for the finding "No mention of nutrition assessment" and the explanation is "Not reported".
+* [101] The category is "Investigations" for the finding "No mention of delirium assessment" and the explanation is "Somnolence noted but not formally assessed".
+* [102] The category is "Investigations" for the finding "No mention of sleep study" and the explanation is "Not reported".
+* [103] The category is "Investigations" for the finding "No mention of physical therapy involvement" and the explanation is "Not reported".
+* [104] The category is "Investigations" for the finding "No mention of social work involvement" and the explanation is "Not reported".
+* [105] The category is "Investigations" for the finding "No mention of discharge planning" and the explanation is "Patient died before discharge".
+* [106] The category is "Investigations" for the finding "No mention of advanced directives" and the explanation is "Family decision not to resuscitate after arrest".
+* [107] The category is "Investigations" for the finding "No mention of cause of death beyond asystolic arrest" and the explanation is "Autopsy pending".
+* [108] The category is "Investigations" for the finding "No mention of pulmonary hypertension classification" and the explanation is "Inferred from echo".
+* [109] The category is "Investigations" for the finding "No mention of right heart catheterization data" and the explanation is "Not reported".
+* [110] The category is "Investigations" for the finding "No mention of lung biopsy" and the explanation is "Not performed or reported".
+* [111] The category is "Investigations" for the finding "No mention of occupational lung disease workup" and the explanation is "Asbestos exposure noted but not formally evaluated".
+* [112] The category is "Investigations" for the finding "No mention of pulmonary function trends over hospitalization" and the explanation is "Not reported".
+* [113] The category is "Investigations" for the finding "No mention of serum BNP or NT‑proBNP" and the explanation is "Not reported".
+* [114] The category is "Investigations" for the finding "No mention of diuretic response quantification" and the explanation is "Clinical notes only".
+* [115] The category is "Investigations" for the finding "No mention of infection markers (WBC, CRP, procalcitonin)" and the explanation is "Not reported".
+* [116] The category is "Investigations" for the finding "No mention of blood cultures" and the explanation is "Not reported".
+* [117] The category is "Investigations" for the finding "No mention of sputum cultures" and the explanation is "Not reported".
+* [118] The category is "Investigations" for the finding "No mention of viral PCR panels" and the explanation is "Not reported".
+* [119] The category is "Investigations" for the finding "No mention of fungal studies" and the explanation is "Not reported".
+* [120] The category is "Investigations" for the finding "No mention of pleural fluid analysis" and the explanation is "Not reported".
+* [121] The category is "Investigations" for the finding "No mention of acid‑fast bacilli stain" and the explanation is "Not reported".
+* [122] The category is "Investigations" for the finding "No mention of tuberculosis testing" and the explanation is "Not reported".
+* [123] The category is "Investigations" for the finding "No mention of autoimmune panel" and the explanation is "Not reported".
+* [124] The category is "Investigations" for the finding "No mention of rheumatoid factor or anti‑CCP" and the explanation is "Not reported".
+* [125] The category is "Investigations" for the finding "No mention of ANA or ENA panel" and the explanation is "Not reported".
+* [126] The category is "Investigations" for the finding "No mention of connective tissue disease assessment" and the explanation is "Not reported".
+* [127] The category is "Investigations" for the finding "No mention of drug‑induced lung injury evaluation" and the explanation is "Medications noted but not implicated".
+* [128] The category is "Investigations" for the finding "No mention of immunodeficiency workup" and the explanation is "Not reported".
+* [129] The category is "Investigations" for the finding "No mention of nutritional labs (albumin, pre‑albumin)" and the explanation is "Not reported".
+* [130] The category is "Investigations" for the finding "No mention of serum electrolytes trends" and the explanation is "Not reported".
+* [131] The category is "Investigations" for the finding "No mention of serum calcium or phosphate" and the explanation is "Not reported".
+* [132] The category is "Investigations" for the finding "No mention of urinalysis" and the explanation is "Not reported".
+* [133] The category is "Investigations" for the finding "No mention of liver enzymes" and the explanation is "Not reported".
+* [134] The category is "Investigations" for the finding "No mention of kidney function" and the explanation is "Not reported".
+* [135] The category is "Investigations" for the finding "No mention of clotting studies" and the explanation is "Not reported".
+* [136] The category is "Investigations" for the finding "No mention of arterial blood gas values" and the explanation is "Not reported".
+* [137] The category is "Investigations" for the finding "No mention of blood gas trends" and the explanation is "Not reported".
+* [138] The category is "Investigations" for the finding "No mention of pH, PaO₂, PaCO₂" and the explanation is "Not reported".
+* [139] The category is "Investigations" for the finding "No mention of lactate levels" and the explanation is "Not reported".
+* [140] The category is "Investigations" for the finding "No mention of electrolytes trends" and the explanation is "Not reported".
+* [141] The category is "Investigations" for the finding "No mention of serum sodium, potassium, magnesium" and the explanation is "Not reported".
+* [142] The category is "Investigations" for the finding "No mention of uric acid" and the explanation is "Not reported".
+* [143] The category is "Investigations" for the finding "No mention of lipid profile" and the explanation is "Not reported".
+* [144] The category is "Investigations" for the finding "No mention of vitamin B12" and the explanation is "Not reported".
+* [145] The category is "Investigations" for the finding "No mention of folate level" and the explanation is "Not reported".
+* [146] The category is "Investigations" for the finding "No mention of coagulation panel (PT/INR, aPTT)" and the explanation is "Not reported".
+* [147] The category is "Investigations" for the finding "No mention of serum albumin" and the explanation is "Not reported".
+* [148] The category is "Investigations" for the finding "No mention of serum globulins" and the explanation is "Not reported".
+* [149] The category is "Investigations" for the finding "No mention of iron studies" and the explanation is "Not reported".
+* [150] The category is "Investigations" for the finding "No mention of ferritin" and the explanation is "Not reported".
+* [151] The category is "Investigations" for the finding "No mention of copper or ceruloplasmin" and the explanation is "Not reported".
+* [152] The category is "Investigations" for the finding "No mention of autoimmune serologies (ANA, RF)" and the explanation is "Not reported".
+* [153] The category is "Investigations" for the finding "No mention of urinalysis for infection" and the explanation is "Not reported".
+* [154] The category is "Investigations" for the finding "No mention of urinalysis for blood" and the explanation is "Not reported".
+* [155] The category is "Investigations" for the finding "No mention of stool studies" and the explanation is "Not reported".
+* [156] The category is "Investigations" for the finding "No mention of imaging of abdomen/pelvis" and the explanation is "Not reported".
+* [157] The category is "Investigations" for the finding "No mention of bone scan" and the explanation is "Not reported".
+* [158] The category is "Investigations" for the finding "No mention of endoscopic evaluation of GI tract" and the explanation is "Not reported".
+* [159] The category is "Investigations" for the finding "No mention of ophthalmologic exam" and the explanation is "Not reported".
+* [160] The category is "Investigations" for the finding "No mention of dental exam" and the explanation is "Not reported".
+* [161] The category is "Investigations" for the finding "No mention of mental health assessment" and the explanation is "Somnolence noted but not evaluated for depression/psychosis".
+* [162] The category is "Investigations" for the finding "No mention of drug level monitoring (e.g., digoxin)" and the explanation is "Not relevant to case".
+* [163] The category is "Investigations" for the finding "No mention of therapeutic drug monitoring" and the explanation is "Not reported".
+* [164] The category is "Investigations" for the finding "No mention of genetic screening for familial interstitial lung disease" and the explanation is "Not reported".
+* [165] The category is "Investigations" for the finding "No mention of environmental exposure mitigation" and the explanation is "Asbestos exposure historical".
+* [166] The category is "Investigations" for the finding "No mention of smoking cessation counseling" and the explanation is "Patient already quit".
+* [167] The category is "Investigations" for the finding "No mention of pulmonary rehab referral" and the explanation is "Not reported".
+* [168] The category is "Investigations" for the finding "No mention of weight monitoring" and the explanation is "Not reported".
+* [169] The category is "Investigations" for the finding "No mention of vital sign trends over hospital stay" and the explanation is "Not detailed".
+* [170] The category is "Investigations" for the finding "No mention of sedation management" and the explanation is "Mechanical ventilation sedation not described".
+* [171] The category is "Investigations" for the finding "No mention of analgesia plan" and the explanation is "Not reported".
+* [172] The category is "Investigations" for the finding "No mention of infection prophylaxis" and the explanation is "Broad‑spectrum antibiotics administered".
+* [173] The category is "Investigations" for the finding "No mention of antimicrobial stewardship input" and the explanation is "Not reported".
+* [174] The category is "Investigations" for the finding "No mention of antimicrobial susceptibility results" and the explanation is "Not reported".
+* [175] The category is "Investigations" for the finding "No mention of drug allergy assessment" and the explanation is "Not reported".
+* [176] The category is "Investigations" for the finding "No mention of medication reconciliation" and the explanation is "Not reported".
+* [177] The category is "Investigations" for the finding "No mention of renal dosing adjustments" and the explanation is "Not reported".
+* [178] The category is "Investigations" for the finding "No mention of liver dosing adjustments" and the explanation is "Not reported".
+* [179] The category is "Investigations" for the finding "No mention of therapeutic goals discussion with family" and the explanation is "Family involved in DNR decision after arrest".
+* [180] The category is "Investigations" for the finding "No mention of palliative care measures (e.g., comfort measures)" and the explanation is "End‑of‑life care not detailed".
+* [181] The category is "Investigations" for the finding "No mention of advance care planning" and the explanation is "Family decision made after cardiac arrest".
+* [182] The category is "Investigations" for the finding "No mention of organ donation discussion" and the explanation is "Not reported".
+* [183] The category is "Investigations" for the finding "No mention of psychiatric evaluation" and the explanation is "Somnolence noted but not evaluated".
+* [184] The category is "Investigations" for the finding "No mention of code status prior to arrest" and the explanation is "Family decision after arrest".
+* [185] The category is "Investigations" for the finding "No mention of goals of care meeting" and the explanation is "Family involvement described after arrest".
+* [186] The category is "Investigations" for the finding "No mention of hospice referral" and the explanation is "Patient died before hospice could be arranged".
+* [187] The category is "Investigations" for the finding "No mention of quality of life assessment" and the explanation is "Not reported".
+* [188] The category is "Investigations" for the finding "No mention of family support services" and the explanation is "Not reported".
+* [189] The category is "Investigations" for the finding "No mention of social support assessment" and the explanation is "Not reported".
+* [190] The category is "Investigations" for the finding "No mention of financial counseling" and the explanation is "Not reported".
+* [191] The category is "Investigations" for the finding "No mention of health insurance status" and the explanation is "Not reported".
+* [192] The category is "Investigations" for the finding "No mention of legal guardianship" and the explanation is "Family consent for care noted".
+* [193] The category is "Investigations" for the finding "No mention of patient’s expressed wishes" and the explanation is "Family made decision after arrest".
+* [194] The category is "Investigations" for the finding "No mention of religious considerations" and the explanation is "Not reported".
+* [195] The category is "Investigations" for the finding "No mention of cultural considerations" and the explanation is "Not reported".
+* [196] The category is "Investigations" for the finding "No mention of patient’s values and preferences" and the explanation is "Not reported".
+* [197] The category is "Investigations" for the finding "No mention of advance care planning documentation" and the explanation is "Not reported".
+* [198] The category is "Investigations" for the finding "No mention of code status before arrest" and the explanation is "Family decided not to resuscitate after asystole".
+* [199] The category is "Investigations" for the finding "No mention of sedation weaning protocol" and the explanation is "Patient remained intubated until death".
+* [200] The category is "Investigations" for the finding "No mention of ICU delirium prevention measures" and the explanation is "Somnolence observed but not addressed".
+* [201] The category is "Investigations" for the finding "No mention of analgesia optimization" and the explanation is "Not reported".
+* [202] The category is "Investigations" for the finding "No mention of ventilator weaning trial" and the explanation is "Patient progressed to asystole before weaning attempt".
+* [203] The category is "Investigations" for the finding "No mention of oxygen therapy after extubation" and the explanation is "Patient died before extubation".
+* [204] The category is "Investigations" for the finding "No mention of chest physiotherapy" and the explanation is "Not reported".
+* [205] The category is "Investigations" for the finding "No mention of incentive spirometry" and the explanation is "Not reported".
+* [206] The category is "Investigations" for the finding "No mention of proning" and the explanation is "Not reported".
+* [207] The category is "Investigations" for the finding "No mention of prophylactic anticoagulation" and the explanation is "Patient’s risk of thrombosis not discussed".
+* [208] The category is "Investigations" for the finding "No mention of VTE risk assessment" and the explanation is "Patient likely high risk but not documented".
+* [209] The category is "Investigations" for the finding "No mention of DVT prophylaxis" and the explanation is "Not reported".
+* [210] The category is "Investigations" for the finding "No mention of compression stockings" and the explanation is "Not reported".
+* [211] The category is "Investigations" for the finding "No mention of early ambulation" and the explanation is "Patient was intubated, immobile".
+* [212] The category is "Investigations" for the finding "No mention of nutritional support (enteral/parenteral)" and the explanation is "Not reported".
+* [213] The category is "Investigations" for the finding "No mention of fluid balance monitoring" and the explanation is "Not reported".
+* [214] The category is "Investigations" for the finding "No mention of diuretic use" and the explanation is "Not reported".
+* [215] The category is "Investigations" for the finding "No mention of renal replacement therapy" and the explanation is "No evidence of renal failure".
+* [216] The category is "Investigations" for the finding "No mention of liver function monitoring" and the explanation is "Not reported".
+* [217] The category is "Physical Examination" for the finding "Chest: S (   ) ( g ) -  " and the explanation is "S">;".
+
+----- Abduction Phase (Unfocused) -----
+[2026-01-14 16:37:51]
+🧠 ABDUCTION (UNFOCUSED) — Diagnostic hypotheses generated:
+
+1. Occupational interstitial lung disease (asbestosis)
+  Why: Chronic asbestos exposure with characteristic imaging (pleural plaques, reticular opacities, honeycombing, ground‑glass) explains progressive dyspnea and hypoxemia.
+  Supporting features:
+    - Retired plumber with asbestos exposure in shipyard — Occupational exposure
+    - CT chest (day 3): Calcified pericardium and pleura, mild‑moderate aortic atherosclerosis, dual‑chamber pacemaker leads, mediastinal lymph nodes 1.5‑2.3 cm, cystic changes, septal thickening, honeycombing, traction bronchiectasis, diffuse asymmetric ground‑glass opacities — Features of interstitial lung disease, likely asbestosis‑related
+    - Chest radiograph (day 3): Decreased opacities, calcified pleural plaques on right hemidiaphragm, increased cystic lucency — Evolving interstitial changes
+    - Chest radiograph (admission): Bilateral coarse reticular opacities at bases — Initial imaging
+    - Chest radiograph (day 2): Bilateral patchy air‑space opacities, possible small pleural effusions, pacemaker visible — Progressive infiltrates
+
+2. Pulmonary hypertension secondary to lung disease causing right‑heart failure
+  Why: Severe hypoxemia and extensive interstitial lung disease lead to pulmonary vascular remodeling, resulting in elevated pulmonary pressures, right‑ventricular dilation and tricuspid regurgitation.
+  Supporting features:
+    - Transthoracic echocardiogram (day 3): Mild concentric LV hypertrophy, EF 54 %, markedly dilated hypokinetic RV, moderate‑severe tricuspid regurgitation, pulmonary arterial hypertension, septal flattening (RV volume & pressure overload) — Right‑heart failure secondary to pulmonary hypertension
+    - Oxygen saturation 78 % on room air, 91 % on 6 L nasal cannula, 100 % on non‑rebreather — Severe hypoxemia
+    - Jugular venous pressure 14 cm H₂O — Elevated JVP
+    - Crackles extending halfway up lungs bilaterally, occasional expiratory wheezes — Pulmonary congestion
+    - CT chest (day 3): … diffuse asymmetric ground‑glass opacities — Features of interstitial lung disease contributing to pulmonary vascular disease
+
+3. Acute decompensated heart failure (cardiogenic pulmonary edema)
+  Why: Coronary artery disease, hypertension, and prior heart block with pacemaker predispose to left‑sided filling pressures; pulmonary congestion produces crackles and hypoxemia.
+  Supporting features:
+    - Crackles extending halfway up lungs bilaterally, occasional expiratory wheezes — Pulmonary congestion
+    - Transthoracic echocardiogram (day 3): Mild concentric LV hypertrophy, EF 54 % — Evidence of chronic cardiac remodeling
+    - Blood pressure 105/43 mm Hg (ED) — Hypotension
+    - ECG: Paced rhythm 88 bpm, no ectopy — Cardiac rhythm
+    - Serial cardiac biomarkers: No evidence of myocardial infarction — Rule‑out MI
+
+4. Acute respiratory failure due to progressive interstitial lung disease
+  Why: Advanced fibrotic changes impair gas exchange, leading to severe hypoxemia, tachypnea, and need for mechanical ventilation.
+  Supporting features:
+    - Oxygen saturation 78 % on room air, 91 % on 6 L nasal cannula, 100 % on non‑rebreather — Severe hypoxemia
+    - Respirations 28/min — Tachypnea
+    - CT chest (day 3): … honeycombing, traction bronchiectasis, diffuse asymmetric ground‑glass opacities — Features of interstitial lung disease
+    - Chest radiograph (day 2): Bilateral patchy air‑space opacities, possible small pleural effusions, pacemaker visible — Progressive infiltrates
+    - Chest radiograph (admission): Bilateral coarse reticular opacities at bases — Initial imaging
+
+5. Superimposed bacterial pneumonia
+  Why: New air‑space infiltrates and crackles in a hypoxemic patient prompted empiric broad‑spectrum antibiotics, consistent with a bacterial pulmonary infection overlaying chronic lung disease.
+  Supporting features:
+    - Chest radiograph (day 2): Bilateral patchy air‑space opacities, possible small pleural effusions, pacemaker visible — Progressive infiltrates
+    - Ceftriaxone — Broad‑spectrum antibiotic administered in hospital
+    - Azithromycin — Macrolide antibiotic administered in hospital
+    - Levofloxacin — Fluoroquinolone antibiotic administered in hospital
+    - Crackles extending halfway up lungs bilaterally, occasional expiratory wheezes — Pulmonary congestion
+
+6. Chronic obstructive pulmonary disease (COPD) exacerbation
+  Why: A long history of heavy smoking predisposes to airway obstruction; wheezing, tachypnea, and acute worsening of infiltrates can produce an exacerbation.
+  Supporting features:
+    - Former smoker: 3 packs/day for 50 years, quit 14 years ago — Tobacco exposure
+    - Crackles extending halfway up lungs bilaterally, occasional expiratory wheezes — Pulmonary congestion
+    - Respirations 28/min — Tachypnea
+    - Oxygen saturation 78 % on room air, 91 % on 6 L nasal cannula, 100 % on non‑rebreather — Severe hypoxemia
+    - Chest radiograph (day 2): Bilateral patchy air‑space opacities, possible small pleural effusions, pacemaker visible — Progressive infiltrates
+
+7. Drug‑induced lung injury
+  Why: Multiple high‑potency antibiotics and diuretics can cause diffuse alveolar and interstitial inflammation manifesting as ground‑glass opacities and hypoxemia.
+  Supporting features:
+    - Ceftriaxone — Broad‑spectrum antibiotic administered in hospital
+    - Azithromycin — Macrolide antibiotic administered in hospital
+    - Levofloxacin — Fluoroquinolone antibiotic administered in hospital
+    - Furosemide — Loop diuretic administered in hospital
+    - CT chest (day 3): … diffuse asymmetric ground‑glass opacities — Features of interstitial lung disease, likely asbestosis‑related
+
+8. Pacemaker‑related hemodynamic compromise
+  Why: Pacing syndrome or lead obstruction can reduce cardiac output, producing hypotension, syncope‑like events, and secondary pulmonary congestion.
+  Supporting features:
+    - ECG: Paced rhythm 88 bpm, no ectopy — Cardiac rhythm
+    - Blood pressure 105/43 mm Hg (ED) — Hypotension
+    - Pulse 81 bpm (ED) — Tachycardic for paced rhythm
+    - Dual‑chamber pacemaker — Pacemaker presence
+    - CT chest (day 3): … dual‑chamber pacemaker leads — Lead location documented
+
+9. Thoracic malignancy (lung cancer or mesothelioma) associated with asbestos exposure
+  Why: Asbestos exposure and mediastinal lymphadenopathy together with new infiltrates and pleural plaques raise suspicion for an asbestos‑related thoracic neoplasm.
+  Supporting features:
+    - Retired plumber with asbestos exposure in shipyard — Occupational exposure
+    - Brother with heart disease and asbestosis — Family history
+    - CT chest (day 3): … mediastinal lymph nodes 1.5‑2.3 cm — Mediastinal lymphadenopathy
+    - Chest radiograph (day 3): Decreased opacities, calcified pleural plaques on right hemidiaphragm, increased cystic lucency — Pleural plaques
+    - Chest radiograph (day 2): Bilateral patchy air‑space opacities, possible small pleural effusions, pacemaker visible — New infiltrates
+
+10. Connective‑tissue disease‑associated interstitial lung disease
+  Why: An interstitial pattern with ground‑glass, honeycombing, and pulmonary hypertension can be a manifestation of an undiagnosed systemic autoimmune disorder.
+  Supporting features:
+    - CT chest (day 3): … honeycombing, traction bronchiectasis, diffuse asymmetric ground‑glass opacities — Features of interstitial lung disease
+    - Transthoracic echocardiogram (day 3): … pulmonary arterial hypertension, septal flattening — Pulmonary hypertension often accompanies connective‑tissue disease ILD
+    - Crackles extending halfway up lungs bilaterally, occasional expiratory wheezes — Pulmonary congestion
+    - Oxygen saturation 78 % on room air, 91 % on 6 L nasal cannula, 100 % on non‑rebreather — Severe hypoxemia
+    - Temperature 36.1 °C — Afebrile
+
+11. Acute decompensated heart failure (cardiogenic pulmonary edema)
+  Why: Coronary artery disease, hypertension, and left‑ventricular hypertrophy predispose to elevated left‑sided filling pressures, producing pulmonary congestion and hypoxemia.
+  Supporting features:
+    - Crackles extending halfway up lungs bilaterally, occasional expiratory wheezes — Pulmonary congestion
+    - Transthoracic echocardiogram (day 3): Mild concentric LV hypertrophy, EF 54 % — Evidence of chronic cardiac remodeling
+    - Blood pressure 105/43 mm Hg (ED) — Hypotension
+    - ECG: Paced rhythm 88 bpm, no ectopy — Cardiac rhythm
+    - Serial cardiac biomarkers: No evidence of myocardial infarction — Rule‑out MI
+
+12. Acute respiratory failure due to progressive interstitial lung disease
+  Why: Advanced fibrotic lung changes severely impair gas exchange, leading to refractory hypoxemia, tachypnea, and need for mechanical ventilation.
+  Supporting features:
+    - Oxygen saturation 78 % on room air, 91 % on 6 L nasal cannula, 100 % on non‑rebreather — Severe hypoxemia
+    - Respirations 28/min — Tachypnea
+    - CT chest (day 3): … diffuse asymmetric ground‑glass opacities — Interstitial involvement
+    - Chest radiograph (day 2): Bilateral patchy air‑space opacities, possible small pleural effusions, pacemaker visible — Progressive infiltrates
+    - Transthoracic echocardiogram (day 3): … markedly dilated hypokinetic RV, pulmonary arterial hypertension — Consequence of severe lung disease
+
+----- Abduction Phase (Focused) -----
+[2026-01-14 16:41:58]
+🧠 ABDUCTION (FOCUSED) — Diagnostic hypotheses generated:
+
+1. Asbestosis with progressive massive fibrosis
+  Why: Severe fibrotic masses caused by chronic asbestos exposure account for the extensive honeycombing, traction bronchiectasis, calcified pleural plaques, and progressive radiographic opacities.
+  Supporting features:
+    - Retired plumber with asbestos exposure in shipyard — Occupational exposure
+    - CT chest (day 3): Calcified pericardium and pleura, mild‑moderate aortic atherosclerosis, dual‑chamber pacemaker leads, mediastinal lymph nodes 1.5‑2.3 cm, cystic changes, septal thickening, honeycombing, traction bronchiectasis, diffuse asymmetric ground‑glass opacities — Features of interstitial lung disease, likely asbestosis‑related
+    - Chest radiograph (day 3): Decreased opacities, calcified pleural plaques on right hemidiaphragm, increased cystic lucency — Evolving interstitial changes
+    - Chest radiograph (admission): Bilateral coarse reticular opacities at bases — Initial imaging
+
+2. Malignant pleural mesothelioma (epithelioid)
+  Why: Pleural‑based malignancy linked to asbestos exposure explains the calcified pleural plaques, mediastinal lymphadenopathy, and progressive pleural‑dominant infiltrates.
+  Supporting features:
+    - Retired plumber with asbestos exposure in shipyard — Occupational exposure
+    - CT chest (day 3): Calcified pericardium and pleura, mild‑moderate aortic atherosclerosis, dual‑chamber pacemaker leads, mediastinal lymph nodes 1.5‑2.3 cm, cystic changes, septal thickening, honeycombing, traction bronchiectasis, diffuse asymmetric ground‑glass opacities — Features of interstitial lung disease, likely asbestosis‑related
+    - Chest radiograph (day 2): Bilateral patchy air‑space opacities, possible small pleural effusions, pacemaker visible — Progressive infiltrates
+    - Chest radiograph (day 3): Decreased opacities, calcified pleural plaques on right hemidiaphragm, increased cystic lucency — Evolving interstitial changes
+
+3. Hospital‑acquired Pseudomonas aeruginosa pneumonia
+  Why: A nosocomial Gram‑negative pneumonia could produce the new bilateral air‑space opacities and clinical deterioration despite broad‑spectrum antibiotics.
+  Supporting features:
+    - Chest radiograph (day 2): Bilateral patchy air‑space opacities, possible small pleural effusions, pacemaker visible — Progressive infiltrates
+    - Ceftriaxone — Broad‑spectrum antibiotic administered in hospital
+    - Azithromycin — Macrolide antibiotic administered in hospital
+    - Levofloxacin — Fluoroquinolone antibiotic administered in hospital
+    - Temperature 36.1 °C — Afebrile
+
+4. Furosemide‑induced acute interstitial pneumonitis
+  Why: Loop‑diuretic exposure can provoke an interstitial lung reaction, compatible with diffuse ground‑glass opacities and worsening hypoxemia.
+  Supporting features:
+    - Furosemide — Loop diuretic administered in hospital
+    - CT chest (day 3): Calcified pericardium and pleura, mild‑moderate aortic atherosclerosis, dual‑chamber pacemaker leads, mediastinal lymph nodes 1.5‑2.3 cm, cystic changes, septal thickening, honeycombing, traction bronchiectasis, diffuse asymmetric ground‑glass opacities — Features of interstitial lung disease, likely asbestosis‑related
+    - Respirations 28/min — Tachypnea
+    - Oxygen saturation 78 % on room air, 91 % on 6 L nasal cannula, 100 % on non‑rebreather — Severe hypoxemia
+
+5. Pacemaker lead‑induced severe tricuspid regurgitation
+  Why: Malpositioned dual‑chamber leads can cause tricuspid valve dysfunction, leading to right‑sided volume overload and pulmonary hypertension.
+  Supporting features:
+    - Dual‑chamber pacemaker — Pacemaker presence
+    - CT chest (day 3): … dual‑chamber pacemaker leads — Lead location documented
+    - Transthoracic echocardiogram (day 3): Mild concentric LV hypertrophy, EF 54 %, markedly dilated hypokinetic RV, moderate‑severe tricuspid regurgitation, pulmonary arterial hypertension, septal flattening (RV volume & pressure overload) — Right‑heart failure secondary to pulmonary hypertension
+
+6. Chronic thromboembolic pulmonary hypertension (CTEPH)
+  Why: Unresolved pulmonary emboli can cause persistent pulmonary arterial hypertension with right‑ventricular dilation, presenting with severe hypoxemia and elevated JVP.
+  Supporting features:
+    - Jugular venous pressure 14 cm H₂O — Elevated JVP
+    - Oxygen saturation 78 % on room air, 91 % on 6 L nasal cannula, 100 % on non‑rebreather — Severe hypoxemia
+    - Respirations 28/min — Tachypnea
+    - Transthoracic echocardiogram (day 3): Mild concentric LV hypertrophy, EF 54 %, markedly dilated hypokinetic RV, moderate‑severe tricuspid regurgitation, pulmonary arterial hypertension, septal flattening (RV volume & pressure overload) — Right‑heart failure secondary to pulmonary hypertension
+
+7. Heart failure with preserved ejection fraction (HFpEF)
+  Why: Preserved systolic function together with concentric LV hypertrophy and pulmonary hypertension suggests diastolic dysfunction as the primary driver of acute decompensation.
+  Supporting features:
+    - Transthoracic echocramogram (day 3): Mild concentric LV hypertrophy, EF 54 %, markedly dilated hypokinetic RV, moderate‑severe tricuspid regurgitation, pulmonary arterial hypertension, septal flattening (RV volume & pressure overload) — Right‑heart failure secondary to pulmonary hypertension
+    - Blood pressure 105/43 mm Hg (ED) — Hypotension
+    - Jugular venous pressure 14 cm H₂O — Elevated JVP
+
+8. Acute exacerbation of asbestosis‑related usual interstitial pneumonia (UIP) pattern
+  Why: Superimposed diffuse ground‑glass opacities on a background of honeycombing indicate an acute injury phase of chronic asbestos‑related fibrosis.
+  Supporting features:
+    - CT chest (day 3): Calcified pericardium and pleura, mild‑moderate aortic atherosclerosis, dual‑chamber pacemaker leads, mediastinal lymph nodes 1.5‑2.3 cm, cystic changes, septal thickening, honeycombing, traction bronchiectasis, diffuse asymmetric ground‑glass opacities — Features of interstitial lung disease, likely asbestosis‑related
+    - Respirations 28/min — Tachypnea
+    - Oxygen saturation 78 % on room air, 91 % on 6 L nasal cannula, 100 % on non‑rebreather — Severe hypoxemia
+
+9. COPD with chronic bronchitis phenotype
+  Why: Long‑term heavy smoking, wheezing, and chronic productive cough explain the baseline airflow limitation that now contributes to hypoxemia and tachypnea.
+  Supporting features:
+    - Former smoker: 3 packs/day for 50 years, quit 14 years ago — Tobacco exposure
+    - Crackles extending halfway up lungs bilaterally, occasional expiratory wheezes — Pulmonary congestion
+    - Respirations 28/min — Tachypnea
+    - Oxygen saturation 78 % on room air, 91 % on 6 L nasal cannula, 100 % on non‑rebreather — Severe hypoxemia
+
+10. Idiopathic pulmonary fibrosis (usual interstitial pneumonia pattern)
+  Why: Honeycombing, traction bronchiectasis, and diffuse ground‑glass opacities without a clear alternative cause suggest a primary idiopathic fibrotic process.
+  Supporting features:
+    - CT chest (day 3): Calcified pericardium and pleura, mild‑moderate aortic atherosclerosis, dual‑chamber pacemaker leads, mediastinal lymph nodes 1.5‑2.3 cm, cystic changes, septal thickening, honeycombing, traction bronchiectasis, diffuse asymmetric ground‑glass opacities — Features of interstitial lung disease, likely asbestosis‑related
+    - Chest radiograph (admission): Bilateral coarse reticular opacities at bases — Initial imaging
+    - Chest radiograph (day 3): Decreased opacities, calcified pleural plaques on right hemidiaphragm, increased cystic lucency — Evolving interstitial changes
+
+----- Ranking Phase -----
+[2026-01-14 16:43:11]
+🏁 RANKING — Hypotheses ordered by plausibility:
+
+#1 — Acute exacerbation of asbestosis‑related usual interstitial pneumonia (UIP) pattern
+  Parsimony: Explains the rapid dyspnea progression, diffuse ground‑glass opacities, honeycombing, and pleural plaques with a single disease process (asbestosis) without invoking additional pathologies.
+  Danger: Delay in recognizing an acute exacerbation can lead to rapid respiratory failure and death, as occurred in this case.
+  Cost: Requires only standard imaging (CT) and supportive care; no invasive procedures are needed for initial confirmation.
+  Curability: While not curable, early high‑dose steroids and supportive measures can improve survival and may halt further decline.
+
+#2 — Asbestosis with progressive massive fibrosis
+  Parsimony: Accounts for the chronic 6‑month dyspnea, bilateral reticular opacities, pleural plaques, and occupational exposure with a single chronic interstitial disease.
+  Danger: Advanced fibrosis leads to irreversible respiratory compromise and right‑heart failure; early identification can guide palliative planning.
+  Cost: Diagnosis rests on existing CT and radiographs; no extra costly testing beyond routine work‑up.
+  Curability: Fibrosis is irreversible; treatment is supportive, but disease trajectory can be anticipated.
+
+#3 — Pacemaker lead‑induced severe tricuspid regurgitation
+  Parsimony: Provides a direct mechanical cause for the markedly dilated RV, TR, and pulmonary hypertension seen on echo.
+  Danger: Severe TR can precipitate acute right‑sided failure; timely lead revision or extraction may prevent fatal decompensation.
+  Cost: Echocardiography and CT already demonstrate the issue; intervention (lead revision) entails procedural expense but is targeted.
+  Curability: Correctable by lead repositioning or surgery, offering potential hemodynamic improvement.
+
+#4 — Chronic thromboembolic pulmonary hypertension (CTEPH)
+  Parsimony: Explains elevated JVP, severe hypoxemia, RV dilation, and pulmonary hypertension without additional lung parenchymal disease.
+  Danger: If untreated, CTEPH leads to progressive right‑heart failure and death; early anticoagulation or surgical referral is crucial.
+  Cost: Requires ventilation‑perfusion scan or pulmonary angiography, adding moderate cost beyond baseline studies.
+  Curability: Potentially curable with pulmonary endarterectomy; otherwise, targeted medical therapy can stabilize disease.
+
+#5 — Heart failure with preserved ejection fraction (HFpEF)
+  Parsimony: Accounts for elevated JVP, hypotension, and RV strain secondary to left‑sided diastolic dysfunction without invoking additional pathologies.
+  Danger: Untreated HFpEF can exacerbate pulmonary congestion and precipitate decompensation; prompt diuresis and blood‑pressure control are needed.
+  Cost: Managed with clinical assessment, labs, and echo already obtained; no extra expensive diagnostics required.
+  Curability: Chronic condition; management can improve symptoms and quality of life but not cure.
+
+#6 — Hospital‑acquired Pseudomonas aeruginosa pneumonia
+  Parsimony: Adds an infectious overlay to the existing interstitial disease to explain worsening infiltrates and oxygen requirement.
+  Danger: Nosocomial pneumonia can rapidly progress to sepsis and respiratory failure in the elderly; early appropriate antibiotics are vital.
+  Cost: Requires sputum cultures, possibly bronchoscopy, and broad‑spectrum antibiotics, incurring moderate cost.
+  Curability: Potentially curable with targeted antimicrobial therapy if identified promptly.
+
+#7 — Malignant pleural mesothelioma (epithelioid)
+  Parsimony: Relates asbestos exposure to pleural disease but does not fully explain the diffuse parenchymal honeycombing and RV overload.
+  Danger: Aggressive cancer with poor prognosis; delayed diagnosis limits any palliative options.
+  Cost: Requires biopsy, PET‑CT, and oncologic work‑up, adding high cost.
+  Curability: Generally incurable; treatment is palliative.
+
+#8 — Idiopathic pulmonary fibrosis (usual interstitial pneumonia pattern)
+  Parsimony: Matches imaging findings but ignores known asbestos exposure, making asbestosis a more parsimonious explanation.
+  Danger: Progressive fibrosis leads to respiratory failure; early antifibrotic therapy may slow decline.
+  Cost: Diagnosis relies on CT already performed; antifibrotic drugs are expensive.
+  Curability: Not curable; therapy aims to decelerate progression.
+
+#9 — Furosemide‑induced acute interstitial pneumonitis
+  Parsimony: Introduces a drug reaction to explain ground‑glass opacities, yet timing and imaging favor chronic interstitial disease over an acute drug effect.
+  Danger: If present, continuation worsens lung injury; discontinuation is simple and low‑risk.
+  Cost: No additional testing needed; only medication review.
+  Curability: Reversible upon drug cessation.
+
+#10 — COPD with chronic bronchitis phenotype
+  Parsimony: Smoking history supports COPD, but crackles, honeycombing, and pleural plaques point to interstitial disease rather than obstructive airway disease.
+  Danger: COPD exacerbation can be serious, yet in this case it is unlikely to be the primary driver of respiratory failure.
+  Cost: Standard spirometry would add minimal cost but would not change management significantly.
+  Curability: Chronic, non‑curable; bronchodilators can improve symptoms.
+
+----- Deduction Phase -----
+[2026-01-14 16:45:04]
+🔮 DEDUCTION — Expected consequences per hypothesis:
+
+• Acute exacerbation of asbestosis‑related usual interstitial pneumonia (UIP) pattern
+  - [🔴 HIGH | ⏳ clinical_course] Rapid worsening dyspnea over days to weeks.
+  - [🔴 HIGH | ⏳ clinical_course] Hypoxemia with PaO₂/FiO₂ ratio <300, often refractory to supplemental oxygen.
+  - [🔴 HIGH | 🧪 test_result] New bilateral ground‑glass opacities superimposed on background reticular fibrosis on high‑resolution CT.
+  - [🟠 MED | ⏳ clinical_course] Lack of clinical improvement with broad‑spectrum antibiotics.
+  - [🟠 MED | 🧪 test_result] Elevated serum lactate dehydrogenase (LDH) and C‑reactive protein.
+  - [🟠 MED | 🧪 test_result] Bronchoalveolar lavage showing neutrophilic predominance without infection.
+  - [🟢 LOW | 🧪 test_result] No significant response to diuretics; pulmonary edema absent on chest X‑ray.
+
+• Asbestosis with progressive massive fibrosis
+  - [🔴 HIGH | ⏳ clinical_course] Gradual progressive dyspnea and exercise limitation over months to years.
+  - [🔴 HIGH | 🧪 test_result] Chest CT showing extensive bilateral pleural plaques and dense fibrotic masses with honeycombing, especially in the lower lobes.
+  - [🔴 HIGH | 🧪 test_result] Restrictive pattern on pulmonary function tests (↓FVC, ↓DLCO).
+  - [🟠 MED | ⏳ clinical_course] Digital clubbing of the fingers.
+  - [🟠 MED | ⏳ clinical_course] Chronic hypoxemia (resting PaO₂ <80 mmHg) with minimal response to diuretics.
+  - [🟢 LOW | 🧪 test_result] Absence of acute inflammatory markers (normal CRP, ESR).
+
+• Pacemaker lead‑induced severe tricuspid regurgitation
+  - [🔴 HIGH | ⏳ clinical_course] Holosystolic murmur best heard at left lower sternal border, often accentuated with inspiration.
+  - [🔴 HIGH | ⏳ clinical_course] Elevated right‑sided filling pressures (↑ RAP, ↑ CVP) leading to jugular venous distension.
+  - [🔴 HIGH | 🧪 test_result] Transthoracic echocardiography showing lead traversing the tricuspid valve with severe regurgitation, right atrial and right ventricular dilation.
+  - [🔴 HIGH | 🧪 test_result] Lead position confirmed on chest X‑ray or fluoroscopy crossing the tricuspid apparatus.
+  - [🟠 MED | ⏳ clinical_course] Peripheral edema, hepatomegaly, and possible ascites indicating systemic venous congestion.
+  - [🟠 MED | ⏳ clinical_course] Reduced cardiac output with exertional dyspnea that does not improve with diuretics alone.
+
+• Chronic thromboembolic pulmonary hypertension (CTEPH)
+  - [🔴 HIGH | ⏳ clinical_course] Progressive exertional dyspnea and fatigue, often with preserved resting oxygenation early on.
+  - [🔴 HIGH | 🧪 test_result] Ventilation‑perfusion scan showing multiple segmental mismatched perfusion defects.
+  - [🔴 HIGH | 🧪 test_result] Echocardiography with elevated estimated pulmonary artery systolic pressure (>40 mm Hg) and right‑ventricular hypertrophy/dilation.
+  - [🔴 HIGH | 🧪 test_result] CT pulmonary angiography demonstrating chronic thrombus (webs, stenoses, or occlusions) in the proximal pulmonary arteries.
+  - [🟠 MED | 🧪 test_result] Elevated NT‑proBNP reflecting right‑heart strain.
+  - [🟠 MED | 🧪 test_result] Reduced DLCO disproportionate to the degree of airflow obstruction.
+
+• Heart failure with preserved ejection fraction (HFpEF)
+  - [🔴 HIGH | ⏳ clinical_course] Dyspnea on exertion and orthopnea with preserved left ventricular ejection fraction (>50%).
+  - [🔴 HIGH | 🧪 test_result] Echocardiography showing concentric left‑ventricular remodeling, left atrial enlargement, and elevated E/e' ratio.
+  - [🔴 HIGH | 🧪 test_result] Elevated natriuretic peptides (BNP or NT‑proBNP).
+  - [🟠 MED | ⏳ clinical_course] Rapid symptomatic improvement after diuretic administration.
+  - [🟠 MED | 🧪 test_result] Chest X‑ray with pulmonary venous congestion and interstitial edema but no large pleural effusion.
+  - [🟢 LOW | ⏳ clinical_course] Common comorbidities: hypertension, obesity, diabetes, atrial fibrillation.
+
+• Hospital‑acquired Pseudomonas aeruginosa pneumonia
+  - [🔴 HIGH | ⏳ clinical_course] New fever, purulent sputum, and worsening hypoxemia ≥48 h after admission.
+  - [🔴 HIGH | ⏳ clinical_course] Clinical response (defervescence, improved oxygenation) after initiation of anti‑pseudomonal antibiotics (e.g., cefepime, piperacillin‑tazobactam).
+  - [🔴 HIGH | 🧪 test_result] Chest radiograph or CT showing new focal infiltrate, often in dependent lung zones.
+  - [🔴 HIGH | 🧪 test_result] Sputum or endotracheal aspirate culture growing Pseudomonas aeruginosa, often multi‑drug resistant.
+  - [🟠 MED | 🧪 test_result] Leukocytosis with left shift (↑ neutrophils) and elevated procalcitonin.
+  - [🟢 LOW | ⏳ clinical_course] Potential progression to septic shock if untreated.
+
+• Malignant pleural mesothelioma (epithelioid)
+  - [🔴 HIGH | ⏳ clinical_course] History of significant asbestos exposure.
+  - [🔴 HIGH | 🧪 test_result] Unilateral pleural effusion, often recurrent, with associated pleural thickening on imaging.
+  - [🔴 HIGH | 🧪 test_result] Chest CT showing circumferential pleural nodularity and mediastinal invasion.
+  - [🔴 HIGH | 🧪 test_result] Positive cytology or biopsy demonstrating epithelioid mesothelial cells with loss of BAP1 or MTAP expression.
+  - [🟠 MED | ⏳ clinical_course] Weight loss, pleuritic chest pain, and reduced exercise tolerance.
+  - [🟠 MED | 🧪 test_result] Increased FDG uptake of pleural lesions on PET‑CT.
+
+• Idiopathic pulmonary fibrosis (usual interstitial pneumonia pattern)
+  - [🔴 HIGH | ⏳ clinical_course] Insidious progressive dyspnea and dry cough over months.
+  - [🔴 HIGH | 🧪 test_result] HRCT demonstrating basal predominant honeycombing, reticulation, and traction bronchiectasis without a known exposure.
+  - [🔴 HIGH | 🧪 test_result] Restrictive spirometry (↓FVC, normal or high FEV₁/FVC) with markedly reduced DLCO.
+  - [🟠 MED | ⏳ clinical_course] Digital clubbing in up to 50 % of patients.
+  - [🟠 MED | ⏳ clinical_course] Lack of response to corticosteroids or immunosuppressive therapy.
+  - [🟢 LOW | ⏳ clinical_course] Progressive radiographic fibrosis leading to end‑stage lung disease and eventual need for transplant.
+
+• Furosemide‑induced acute interstitial pneumonitis
+  - [🔴 HIGH | ⏳ clinical_course] Acute onset dyspnea and non‑productive cough within days of high‑dose intravenous furosemide.
+  - [🔴 HIGH | ⏳ clinical_course] Rapid clinical improvement after discontinuation of furosemide and initiation of corticosteroids.
+  - [🔴 HIGH | 🧪 test_result] Chest CT showing diffuse bilateral ground‑glass opacities with occasional septal thickening.
+  - [🟠 MED | 🧪 test_result] Fever and peripheral eosinophilia (↑ eosinophils in peripheral blood).
+  - [🟠 MED | 🧪 test_result] Bronchoalveolar lavage with lymphocytic predominance and eosinophils.
+  - [🟢 LOW | 🧪 test_result] Absence of infectious organisms on cultures.
+
+• COPD with chronic bronchitis phenotype
+  - [🔴 HIGH | ⏳ clinical_course] Productive cough for >3 months in at least two consecutive years.
+  - [🔴 HIGH | ⏳ clinical_course] History of tobacco smoking (>20 pack‑years).
+  - [🔴 HIGH | 🧪 test_result] Spirometry showing airflow obstruction (FEV₁/FVC <0.7) with reduced FEV₁.
+  - [🟠 MED | ⏳ clinical_course] Frequent acute exacerbations often triggered by infections, leading to increased dyspnea and sputum purulence.
+  - [🟠 MED | 🧪 test_result] Chest radiograph with hyperinflated lungs, flattened diaphragms, and increased retro‑sternal air space.
+  - [🟢 LOW | 🧪 test_result] Elevated PaCO₂ and reduced PaO₂ on arterial blood gas during exacerbations.
+
+----- Induction Phase -----
+[2026-01-14 16:48:10]
+🧾 INDUCTION — Matching expected vs observed:
+
+• Acute exacerbation of asbestosis‑related usual interstitial pneumonia (UIP) pattern
+  Evaluation: plausible
+  Termination: continue_testing
+  Why: continue_testing
+  Findings summary: ✅ 5 | ❓ 2 | ❌ 0
+  Findings:
+    - ✅ Rapid worsening dyspnea over days to weeks.
+      ↳ 
+    - ✅ New bilateral ground‑glass opacities superimposed on background reticular fibrosis on high‑resolution CT.
+      ↳ 
+    - ❓ Elevated serum lactate dehydrogenase (LDH) and C‑reactive protein.
+      ↳ 
+    - ❓ Bronchoalveolar lavage showing neutrophilic predominance without infection.
+      ↳ 
+    - ✅ Hypoxemia with PaO₂/FiO₂ ratio <300, often refractory to supplemental oxygen.
+      ↳ 
+    - ✅ Lack of clinical improvement with broad‑spectrum antibiotics.
+      ↳ 
+    - ✅ No significant response to diuretics; pulmonary edema absent on chest X‑ray.
+      ↳ 
+
+• Asbestosis with progressive massive fibrosis
+  Evaluation: plausible
+  Termination: continue_testing
+  Why: continue_testing
+  Findings summary: ✅ 2 | ❓ 4 | ❌ 0
+  Findings:
+    - ✅ Gradual progressive dyspnea and exercise limitation over months to years.
+      ↳ 
+    - ❓ Chest CT showing extensive bilateral pleural plaques and dense fibrotic masses with honeycombing, especially in the lower lobes.
+      ↳ 
+    - ❓ Restrictive pattern on pulmonary function tests (↓FVC, ↓DLCO).
+      ↳ 
+    - ❓ Digital clubbing of the fingers.
+      ↳ 
+    - ✅ Chronic hypoxemia (resting PaO₂ <80 mmHg) with minimal response to diuretics.
+      ↳ 
+    - ❓ Absence of acute inflammatory markers (normal CRP, ESR).
+      ↳ 
+
+• Pacemaker lead‑induced severe tricuspid regurgitation
+  Evaluation: plausible
+  Termination: continue_testing
+  Why: continue_testing
+  Findings summary: ✅ 2 | ❓ 4 | ❌ 0
+  Findings:
+    - ❓ Holosystolic murmur best heard at left lower sternal border, often accentuated with inspiration.
+      ↳ 
+    - ❓ Transthoracic echocardiography showing lead traversing the tricuspid valve with severe regurgitation, right atrial and right ventricular dilation.
+      ↳ 
+    - ✅ Elevated right‑sided filling pressures (↑ RAP, ↑ CVP) leading to jugular venous distension.
+      ↳ 
+    - ❓ Peripheral edema, hepatomegaly, ascites.
+      ↳ 
+    - ✅ Reduced cardiac output with exertional dyspnea not improving with diuretics alone.
+      ↳ 
+    - ❓ Lead position confirmed on chest X‑ray crossing tricuspid apparatus.
+      ↳ 
+
+• Chronic thromboembolic pulmonary hypertension (CTEPH)
+  Evaluation: plausible
+  Termination: continue_testing
+  Why: continue_testing
+  Findings summary: ✅ 2 | ❓ 4 | ❌ 0
+  Findings:
+    - ✅ Progressive exertional dyspnea with preserved resting O₂ initially.
+      ↳ 
+    - ❓ Ventilation‑perfusion scan showing mismatched perfusion defects.
+      ↳ 
+    - ✅ Echocardiography showing elevated pulmonary artery systolic pressure and right‑ventricular hypertrophy/dilation.
+      ↳ 
+    - ❓ Elevated NT‑proBNP.
+      ↳ 
+    - ❓ Reduced DLCO disproportionate to the degree of obstruction.
+      ↳ 
+    - ❓ CT angiography showing chronic thrombus.
+      ↳ 
+
+• Heart failure with preserved ejection fraction (HFpEF)
+  Evaluation: refuted
+  Termination: reopen_abduction
+  Why: reopen_abduction
+  Findings summary: ✅ 2 | ❓ 3 | ❌ 1
+  Findings:
+    - ✅ Dyspnea on exertion and orthopnea with preserved EF.
+      ↳ 
+    - ❓ Echocardiography shows concentric LV remodeling, LA enlargement, and elevated E/e'.
+      ↳ 
+    - ❓ Elevated natriuretic peptides (BNP/NT‑proBNP).
+      ↳ 
+    - ❓ Chest X‑ray with pulmonary venous congestion and interstitial edema, no large effusion.
+      ↳ 
+    - ❌ Rapid improvement after diuretics.
+      ↳ 
+    - ✅ Common comorbidities (hypertension, diabetes).
+      ↳ 
+
+• Hospital‑acquired Pseudomonas aeruginosa pneumonia
+  Evaluation: refuted
+  Termination: reopen_abduction
+  Why: reopen_abduction
+  Findings summary: ✅ 0 | ❓ 2 | ❌ 3
+  Findings:
+    - ❌ New fever, purulent sputum, worsening hypoxemia ≥48 h after admission.
+      ↳ 
+    - ❌ New focal infiltrate on chest imaging.
+      ↳ 
+    - ❓ Leukocytosis with left shift.
+      ↳ 
+    - ❓ Culture growing Pseudomonas aeruginosa.
+      ↳ 
+    - ❌ Clinical improvement after anti‑pseudomonal antibiotics.
+      ↳ 
+
+• Malignant pleural mesothelioma (epithelioid)
+  Evaluation: refuted
+  Termination: reopen_abduction
+  Why: reopen_abduction
+  Findings summary: ✅ 2 | ❓ 3 | ❌ 1
+  Findings:
+    - ❌ Unilateral pleural effusion recurrent.
+      ↳ 
+    - ❓ CT showing circumferential pleural nodularity and mediastinal invasion.
+      ↳ 
+    - ✅ Weight loss, pleuritic chest pain, reduced exercise tolerance.
+      ↳ 
+    - ❓ Positive cytology/biopsy for mesothelioma.
+      ↳ 
+    - ❓ Increased FDG uptake on PET/CT.
+      ↳ 
+    - ✅ History of asbestos exposure.
+      ↳ 
+
+• Idiopathic pulmonary fibrosis (usual interstitial pneumonia pattern)
+  Evaluation: refuted
+  Termination: reopen_abduction
+  Why: reopen_abduction
+  Findings summary: ✅ 3 | ❓ 2 | ❌ 1
+  Findings:
+    - ✅ Insidious progressive dyspnea and dry cough over months.
+      ↳ 
+    - ❌ HRCT showing basal honeycomb changes, reticulation, and traction bronchiectasis without a known exposure.
+      ↳ 
+    - ❓ Restrictive spirometry (decreased FVC and DLCO).
+      ↳ 
+    - ❓ Digital clubbing.
+      ↳ 
+    - ✅ Lack of response to corticosteroids.
+      ↳ 
+    - ✅ Progressive fibrosis leading to end‑stage lung disease.
+      ↳ 
+
+• Furosemide‑induced acute interstitial pneumonitis
+  Evaluation: refuted
+  Termination: reopen_abduction
+  Why: reopen_abduction
+  Findings summary: ✅ 0 | ❓ 3 | ❌ 3
+  Findings:
+    - ❌ Acute onset dyspnea within days of high‑dose IV furosemide.
+      ↳ 
+    - ❌ Fever and eosinophilia.
+      ↳ 
+    - ❓ CT showing diffuse ground‑glass opacities.
+      ↳ 
+    - ❓ Bronchoalveolar lavage with lymphocytic predominance and eosinophils.
+      ↳ 
+    - ❌ Rapid improvement after stopping furosemide and steroids.
+      ↳ 
+    - ❓ Absence of infection.
+      ↳ 
+
+• Chronic thromboembolic pulmonary hypertension (CTEPH)
+  Evaluation: plausible
+  Termination: continue_testing
+  Why: continue_testing
+  Findings summary: ✅ 2 | ❓ 4 | ❌ 0
+  Findings:
+    - ✅ Progressive exertional dyspnea with preserved resting oxygenation early.
+      ↳ 
+    - ❓ Ventilation‑perfusion scan showing mismatched perfusion defects.
+      ↳ 
+    - ✅ Echocardiography with elevated pulmonary artery systolic pressure and right‑ventricular hypertrophy/dilation.
+      ↳ 
+    - ❓ Elevated NT‑proBNP.
+      ↳ 
+    - ❓ Reduced DLCO disproportionate to the degree of obstruction.
+      ↳ 
+    - ❓ CT angiography showing chronic thrombus.
+      ↳ 
+
+----- Ranking Phase -----
+[2026-01-14 16:49:34]
+🏁 RANKING — Hypotheses ordered by plausibility:
+
+#1 — Acute exacerbation of asbestosis‑related usual interstitial pneumonia (UIP) pattern
+  Parsimony: Explains the chronic asbestos‑related interstitial fibrosis, the new ground‑glass opacities, rapid hypoxemia, and lack of response to antibiotics/diuretics in a single disease process.
+  Danger: Delay can lead to rapid respiratory failure and death; acute exacerbations have high short‑term mortality.
+  Cost: Requires only high‑resolution CT and routine labs already obtained; no invasive testing needed for confirmation.
+  Curability: Not curable, but early corticosteroid therapy and supportive care can improve survival and quality of life.
+
+#2 — Asbestosis with progressive massive fibrosis
+  Parsimony: Accounts for the long‑standing asbestos exposure and the basal reticular and honey‑comb changes without invoking an additional acute process.
+  Danger: Progressive fibrosis leads to chronic respiratory failure; however, the timeline is slower than an acute exacerbation.
+  Cost: Evaluation relies on existing imaging and pulmonary function tests; low incremental cost.
+  Curability: Irreversible fibrosis; management is supportive, with limited impact on overall survival.
+
+#3 — Pacemaker lead‑induced severe tricuspid regurgitation
+  Parsimony: Provides a focused cardiac explanation for right‑sided pressure overload and jugular venous distension, but does not account for the interstitial lung findings, requiring an additional diagnosis.
+  Danger: Severe TR can precipitate rapid cardiogenic shock and syncope, making timely identification critical.
+  Cost: Echocardiography and chest X‑ray already performed; definitive assessment may need trans‑esophageal echo, modest cost.
+  Curability: Potentially correctable with lead revision or surgical repair, though high procedural risk in an 89‑year‑old.
+
+#4 — Chronic thromboembolic pulmonary hypertension (CTEPH)
+  Parsimony: Explains right‑ventricular dilation and pulmonary hypertension, but fails to explain the extensive interstitial fibrosis, so an additional lung disease must be invoked.
+  Danger: Untreated CTEPH can cause progressive right‑heart failure and death; early identification allows curative pulmonary endarterectomy.
+  Cost: Requires ventilation‑perfusion scan or CT‑angiography, adding moderate imaging expense.
+  Curability: Potentially curable with surgery or balloon pulmonary angioplasty if diagnosed early.
+
+#5 — Chronic thromboembolic pulmonary hypertension (CTEPH)
+  Parsimony: Same rationale as H4; duplicate hypothesis retained for ranking completeness.
+  Danger: Same as H4; delayed treatment increases mortality.
+  Cost: Same imaging requirements as H4.
+  Curability: Same curative potential as H4.
+
+#6 — Heart failure with preserved ejection fraction (HFpEF)
+  Parsimony: Accounts for dyspnea with preserved EF but does not explain the extensive interstitial changes or acute hypoxemia; also contradicted by lack of rapid diuretic response.
+  Danger: HFpEF can contribute to decompensation, yet mortality is lower than acute lung injury.
+  Cost: Echocardiography and BNP already obtained; minimal additional expense.
+  Curability: Manageable with diuretics and blood‑pressure control, but not curative for underlying disease.
+
+#7 — Hospital‑acquired Pseudomonas aeruginosa pneumonia
+  Parsimony: Infectious explanation would need fever, purulent sputum, and radiographic consolidation, none of which are present.
+  Danger: If present, early antibiotics are vital; however, current data make infection unlikely.
+  Cost: Cultures and repeat imaging add modest cost.
+  Curability: Usually curable with appropriate antibiotics.
+
+#8 — Malignant pleural mesothelioma (epithelioid)
+  Parsimony: Asbestos exposure fits, but imaging lacks characteristic circumferential pleural nodularity and unilateral effusion; requires invasive biopsy.
+  Danger: Highly lethal malignancy; delayed diagnosis reduces therapeutic options.
+  Cost: Biopsy, PET‑CT, and pathology increase expense significantly.
+  Curability: Generally incurable; treatment is palliative.
+
+#9 — Idiopathic pulmonary fibrosis (usual interstitial pneumonia pattern)
+  Parsimony: Similar radiologic pattern to asbestosis‑related UIP but ignores known asbestos exposure, making it less parsimonious.
+  Danger: Progressive fibrosis carries high mortality; however, the acute exacerbation points more to an exposure‑related process.
+  Cost: Pulmonary function tests and HRCT already performed; low additional cost.
+  Curability: No cure; antifibrotic therapy may slow progression.
+
+#10 — Furosemide‑induced acute interstitial pneumonitis
+  Parsimony: Requires temporal link between high‑dose furosemide and symptom onset, which is absent; other findings contradict this cause.
+  Danger: Potentially reversible if recognized, but unlikely in this case.
+  Cost: Bronchoscopy and BAL add procedural cost.
+  Curability: Reversible upon drug cessation and steroids; however, not applicable here.

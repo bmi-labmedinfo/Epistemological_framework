@@ -1,0 +1,44 @@
+{
+    "diagnoses": [
+        {
+            "diagnosis": "Asbestosis with progressive interstitial fibrosis (asbestos\u2011related usual interstitial pneumonia)",
+            "explanation": "The patient worked for many years as a shipyard plumber and has a classic occupational exposure to amphibole asbestos.  Chest CT shows diffuse honey\u2011comb fibrosis, traction bronchiectasis, basal\u2011predominant reticular opacities and pleural plaques/calcified diaphragmatic plaques \u2013 the radiologic hall\u2011mark of asbestos\u2011related disease.  The long, insidious decline in exercise tolerance, 2\u2011kg weight loss, and the absence of a distinct mass make a primary malignancy less likely.  The disease explains the restrictive physiologic pattern that progressed despite optimal heart\u2011failure therapy and led to secondary pulmonary\u2011vascular disease."
+        },
+        {
+            "diagnosis": "Idiopathic pulmonary fibrosis (usual interstitial pneumonia pattern) \u2013 \u201cidiopathic\" component may be super\u2011imposed on asbestos exposure",
+            "explanation": "CT demonstrates a classic UIP pattern (basal\u2011predominant reticular changes, honeycombing, subpleural cystic lucencies, and traction bronchiectasis) that can be indistinguishable from asbestosis.  Although asbestos exposure strongly points to asbestosis, many older smokers develop idiopathic PF, and the presence of a UIP pattern on imaging and a rapid, fatal course over a few weeks is typical of an acute exacerbation of IPF."
+        },
+        {
+            "diagnosis": "Combined pulmonary fibrosis and emphysema (CPFE)",
+            "explanation": "A 50\u2011pack\u2011year smoking history predisposes to emphysema, which often co\u2011exists with fibrosis in the elderly.  CPFE commonly presents with severe dyspnoea, relatively preserved lung volumes, profound gas\u2011exchange impairment, and a high prevalence of pulmonary\u2011hypertension \u2013 all seen in this case (high JVP, RV dilation, PH on echo).  The CT report did not explicitly describe emphysematous bullae, but they can be subtle or masked by extensive fibrosis."
+        },
+        {
+            "diagnosis": "Acute exacerbation of underlying interstitial lung disease (AE\u2011ILD)",
+            "explanation": "The patient\u2019s clinical trajectory changed dramatically over a few days with worsening hypoxaemia, new ground\u2011glass opacity superimposed on a background of fibrosis, and rapid respiratory failure despite antibiotics and steroids \u2013 a pattern that fits AE\u2011ILD.  AE\u2011ILD is characterised by diffuse alveolar damage on top of chronic fibrosis and often precipitates death in the elderly."
+        },
+        {
+            "diagnosis": "Pulmonary hypertension secondary to chronic lung disease (Group\u202f3 PH) with resultant right\u2011ventricular failure (cor pulmonale)",
+            "explanation": "Echocardiography showed a markedly dilated, hypokinetic RV, moderate\u2011to\u2011severe tricuspid regurgitation, interventricular septal flattening and elevated right\u2011sided pressures, all compatible with PH.  In the setting of advanced restrictive lung disease, the RV faces chronic pressure overload and eventually fails, explaining the elevated JVP (14\u202fcm H\u2082O) and syncopal episodes caused by low cardiac output."
+        },
+        {
+            "diagnosis": "Constrictive pericarditis (likely asbestos\u2011related or post\u2011viral/idiopathic)",
+            "explanation": "CT disclosed pericardial calcification, a finding that strongly suggests chronic constrictive pericarditis.  Constriction produces elevated systemic venous pressure, JVP elevation, exaggerated RV filling pressures, and episodes of hypotension and syncope \u2013 exactly what occurred.  While the pericardial disease alone would not explain the extensive parenchymal fibrosis, it likely contributed to the profound haemodynamic instability and may have accelerated the fatal terminal event."
+        },
+        {
+            "diagnosis": "Right\u2011ventricular failure (cor pulmonale) as the proximate cause of syncope and hypoperfusion",
+            "explanation": "The syncopal episode with an initial systolic BP of 60\u202fmm\u202fHg, rapid recovery after a few minutes, and echo findings of a severely dilated, hypokinetic RV point to an acute decompensation of RV output (e.g., a low\u2011output\u2010state related to severe PH).  The RV failure is a downstream effect of the chronic lung disease and possible constrictive pericarditis."
+        },
+        {
+            "diagnosis": "Superimposed bacterial pneumonia (secondary infection in a patient with compromised lung architecture)",
+            "explanation": "The patient received broad\u2011spectrum antibiotics (ceftriaxone, azithromycin, levofloxacin) after developing new air\u2011space opacities and worsening desaturation.  Although he remained afebrile, elderly patients with advanced fibrosis often mount a blunted febrile response.  A viral or atypical bacterial infection could have acted as a trigger for the acute decompensation and the ground\u2011glass change seen on CT."
+        },
+        {
+            "diagnosis": "Acute pulmonary embolism",
+            "explanation": "Sudden worsening dyspnea, syncope, and profound hypoxaemia in an elderly, immobile, and diuretic\u2011treated patient raise suspicion for PE, especially in the setting of chronic lung disease which can mask classic signs.  The CT report does not describe filling defects, but an embolus could have been missed if a non\u2011contrast study was performed or if the emboli were peripheral and small.  PE would aggravate right\u2011heart strain and could have contributed to the terminal haemodynamic collapse."
+        },
+        {
+            "diagnosis": "Heart failure with preserved ejection fraction (HFpEF) secondary to longstanding hypertension and coronary artery disease",
+            "explanation": "The patient has a preserved LVEF (\u224854\u202f%), concentric LV hypertrophy, a history of hypertension, CAD, and diabetes\u2014classic risk factors for HFpEF.  Diastolic dysfunction can lead to pulmonary congestion and dyspnea, especially when superimposed on restrictive lung disease.  While HFpEF alone cannot account for the extensive honeycombing, it likely added to the overall volume overload and contributed to the need for aggressive diuresis."
+        }
+    ]
+}

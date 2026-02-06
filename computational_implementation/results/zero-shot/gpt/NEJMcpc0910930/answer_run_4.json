@@ -1,0 +1,44 @@
+{
+    "diagnoses": [
+        {
+            "diagnosis": "Asbestosis with a usual\u2011interstitial\u2011pneumonia (UIP) pattern (fibrotic asbestosis)",
+            "explanation": "The patient had a long, high\u2011intensity occupational exposure to asbestos (ship\u2011yard plumbing).  CT showed diffuse basal\u2011predominant honey\u2011comb change, traction bronchiectasis, septal thickening and cystic lucencies \u2013 the classic radiologic picture of UIP.  The chest X\u2011ray demonstrated bilateral coarse reticular opacities and pleural plaques; CT confirmed calcified pleural plaques on the right hemidiaphragm and a calcified pericardium \u2013 both hallmark findings of chronic asbestos disease.  The slow, 6\u2011month progression of exertional dyspnoea, the 2.3\u202fkg weight loss, dry cough, and the eventual development of severe pulmonary\u2011arterial hypertension with right\u2011ventricular (RV) dilatation are typical of end\u2011stage asbestosis.  The autopsy (performed) most often reveals asbestos bodies, diffuse interstitial fibrosis with a UIP pattern, and pleural plaque fibrosis, confirming this as the most plausible primary diagnosis."
+        },
+        {
+            "diagnosis": "Idiopathic pulmonary fibrosis (IPF) \u2013 usual interstitial pneumonia pattern",
+            "explanation": "IPF presents in the seventh\u2011eighth decade with progressive dyspnoea, dry cough, and a CT pattern indistinguishable from that seen in this patient (basal honey\u2011comb, traction bronchiectasis, reticular opacities).  The absence of a clear temporal relationship to asbestos exposure (the disease can be independent) makes IPF a close second.  The patient\u2019s smoking history (150 pack\u2011years) is a recognized risk factor for IPF.  The normal left\u2011ventricular systolic function, the marked RV failure, and the eventual acute decompensation are all compatible with an advanced IPF\u2011related cor\u2011pulmonale."
+        },
+        {
+            "diagnosis": "Combined pulmonary fibrosis and emphysema (CPFE) syndrome",
+            "explanation": "The patient\u2019s massive smoking history (3\u202fpacks/day for 50\u202fyears) predisposes to emphysematous changes, which can coexist with a UIP\u2011type fibrosis (CPFE).  CPFE typically produces relatively preserved spirometric volumes but severe dyspnoea, marked reduction in diffusion capacity, and early development of pulmonary hypertension \u2013 all seen here (severe hypoxemia, RV overload, low DLCO is suggested by the rapid desaturation despite high\u2011flow O\u2082).  The CT did not explicitly describe centrilobular emphysema, but in an elderly heavy smoker it remains a plausible contributing process."
+        },
+        {
+            "diagnosis": "Acute exacerbation of chronic interstitial lung disease (AE\u2011ILD)",
+            "explanation": "At day\u202f3\u20134 the patient\u2019s respiratory status deteriorated dramatically (oxygen saturation 77\u201385\u202f% on 10\u202fL\u202fO\u2082, need for BiPAP/CPAP, rapid progression to mechanical ventilation).  The clinical picture\u2014acute worsening of dyspnoea, new ground\u2011glass opacities superimposed on a fibrotic background, absence of infection on cultures (despite broad\u2011spectrum antibiotics), and high mortality\u2014fits the definition of an acute exacerbation of an underlying fibrotic lung disease (whether asbestosis, IPF, or CPFE)."
+        },
+        {
+            "diagnosis": "Group\u202fIII pulmonary hypertension (PH) secondary to chronic lung disease",
+            "explanation": "Echocardiography demonstrated pulmonary\u2011artery pressures in the moderate\u2011to\u2011severe range, RV dilatation, and interventricular septal flattening, all consistent with severe PH.  In the setting of extensive interstitial fibrosis, hypoxic vasoconstriction and vascular remodeling drive PH, which in turn precipitates RV failure and explains the marked tricuspid regurgitation and low\u2011output state."
+        },
+        {
+            "diagnosis": "Constrictive pericarditis from calcified pericardium (asbestos\u2011related pericardial disease)",
+            "explanation": "CT identified pericardial calcifications.  Chronic asbestos exposure can cause pericardial fibrosis and calcification, producing a constrictive physiology that limits ventricular filling, raises jugular venous pressure (14\u202fcm\u202fH\u2082O), and contributes to right\u2011sided congestion.  The modest LV ejection fraction (54\u202f%) with marked RV impairment and a \u201csquare\u2011root\u201d sign on echocardiography (if present) would support a combined constrictive component."
+        },
+        {
+            "diagnosis": "Superimposed bacterial pneumonia (hospital\u2011acquired or community\u2011acquired)",
+            "explanation": "The patient received multiple courses of ceftriaxone, azithromycin, and levofloxacin, reflecting the clinical suspicion for pneumonia.  While cultures were not reported, an infection could have precipitated the acute decompensation with worsening infiltrates and leukocytosis.  However, the lack of fever, the persistent diffuse bilateral pattern, and the rapid response to diuretics make infection a less likely primary driver."
+        },
+        {
+            "diagnosis": "Pulmonary embolism (sub\u2011massive or massive)",
+            "explanation": "A sudden drop in systolic BP to 60\u202fmm\u202fHg with syncope and marked RV dilation raises the possibility of an acute embolic event.  In older, immobile patients with cancer risk factors (asbestos exposure is not a direct risk, but chronic inflammation may predispose), PE can provoke rapid hypoxaemia and right\u2011heart strain.  The CT angiogram was not described; absence of a high\u2011resolution pulmonary artery evaluation lowers its probability, but it remains a reasonable differential for the acute episode."
+        },
+        {
+            "diagnosis": "Malignant pleural mesothelioma",
+            "explanation": "Pleural plaques and asbestos exposure are classic precursors to mesothelioma.  Though mesothelioma usually presents with unilateral pleural effusion or thickening rather than diffuse interstitial fibrosis, early disease can be occult and may have contributed to his progressive dyspnoea.  Lack of significant pleural effusion on imaging and the predominant parenchymal fibrosis make this less likely, but it cannot be excluded without histology."
+        },
+        {
+            "diagnosis": "Medication\u2011related pulmonary edema/diuretic\u2011induced hypovolemia leading to pre\u2011renal failure",
+            "explanation": "The patient was on multiple agents (metoprolol, captopril, furosemide, nifedipine) that can blunt the compensatory tachycardic response and precipitate renal hypoperfusion, especially in the setting of an already compromised right heart.  The low blood pressure on admission (105/43\u202fmm\u202fHg) and the need for frequent furosemide boluses could have contributed to intravascular volume depletion, worsening hypoxaemia and renal dysfunction.  This mechanism, however, would not explain the extensive honey\u2011comb fibrosis seen on CT, thus it ranks lowest."
+        }
+    ]
+}
